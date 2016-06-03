@@ -1,0 +1,438 @@
+/* ------------------------------------------
+    GLOBAL
+------------------------------------------ */
+body {
+    letter-spacing: .08em;
+    line-height: 1.7em;
+}
+
+/* fonts */
+.text-bold { font-weight: bold; }
+.text-red { color: #d9534f; }
+.text-white { color: white; }
+.font-30 { font-size: 30px; }
+.font-18 { font-size: 18px; }
+.font-14 { font-size: 14px; }
+.text-default { font-family: arial, tahoma; }
+.text-right { text-align: right; }
+
+/* spacing */
+.space-top-10 { margin-top: 10px; }
+.space-top-20 { margin-top: 20px; }
+.space-top-30 { margin-top: 30px; }
+.space-top-40 { margin-top: 40px; }
+.space-bottom-10 { margin-bottom: 10px; }
+.space-bottom-30 { margin-bottom: 30px; }
+.space-bottom-40 { margin-bottom: 40px; }
+
+/* sizes */
+.height-100 { height: 100px; }
+.height-600 { height: 600px; }
+.width-150 { width: 150px; }
+.max-width-75 { width: 75px; }
+.max-width-100 { width: 100px; }
+.max-width-125 { width: 125px; }
+.max-width-150 { width: 150px; }
+.max-width-200 { width: 200px; }
+.max-height-100 { max-height: 100px; }
+.max-height-125 { max-height: 125px; max-width: auto; }
+
+/* positioning */
+.vertical-middle { vertical-align: middle; }
+
+/* footer buttons */
+.button-black {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+
+/* ------------------------------------------
+    Sugar & Spice
+------------------------------------------ */
+/* panel */
+.panel-default > .panel-sugarandspice {
+    background: #d9534f;
+}
+
+/* winner 2015 logos */
+.sns-logos-winner2015 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+/* ------------------------------------------
+    INDEX
+------------------------------------------ */
+#social ul {
+    margin-top: 15px;
+}
+
+#social a {
+    text-decoration: none;
+}
+
+#social #phone {
+    padding: 0px;
+    font-size: 18px;
+    background: none;
+}
+
+header img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#sminfo {
+    text-align: center;
+    padding: 5px 0px 18px;
+}
+
+#sminfo a {
+    text-decoration: underline;
+    color: #d52349;
+}
+
+/* navbar */
+.navbar {
+    min-height: 42px;
+}
+
+.navbar-inverse {
+    background-color: #000;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav > li > a {
+    color: #FFF !important;
+}
+
+/* nav | desktops only | helps center menu items */
+@media screen and (min-width: 768px) {
+    .navbar-nav > li {
+        float: none;
+        display: inline-block;
+    }
+
+    .navbar-nav > li > a {
+        padding: 10px 15px;
+    }
+
+    /* enables hovering over dropdown boxes */
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+/* nav | mobile & tablets */
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li >a {
+        color: #dfdfdf;
+        text-align: center;
+    }
+
+    #social {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
+
+#sns .container {
+    background-image: url(../img/skin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 62px;
+}
+
+#gifts {
+    padding: 15px 0px;
+    color: #fff;
+    background-color: #c71d22;
+    text-align: center;
+}
+
+footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 30px 0px;
+}
+
+footer button {
+    background-color: #252122;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+footer #go {
+    background-color: #c71d22;
+}
+
+
+footer input {
+    margin: 10px 0px;
+}
+
+#subfooter {
+    background-color: #333333;
+    color: #f0f0f0;
+    padding: 0px 0px;
+}
+
+#subfooter p {
+    font-size: 12px;
+    letter-spacing: 0.1px;
+}
+
+#subfooter a {
+    text-decoration: underline;
+    color: #f0f0f0;
+}
+
+#subfooter a:hover {
+    text-decoration: none;
+}
+
+/* carousel mods */
+#index-carousel {
+    width: 100%;
+}
+
+#index-carousel .carousel {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#index-carousel .carousel-indicators {
+    bottom: -50px;
+}
+
+#index-carousel .carousel-indicators li {
+  border-color:#000;
+  background-color:#fff;
+}
+
+#index-carousel .carousel-inner {
+    margin-bottom: 50px;
+}
+
+#index-carousel .carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#wcpremiere .container {
+    padding-bottom: 50px;
+}
+
+#wcpremiere h2 {
+    text-align: center;
+}
+
+#serviceimg h2 {
+    color: #fff;
+}
+
+#serviceimg h2:hover {
+    color: #d52349;
+}
+
+#serviceimg a {
+    text-decoration: none;
+}
+
+#serviceimg .image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 90px 0px;
+    text-align: center;
+    margin-bottom: 50px
+}
+
+#serviceimg .first {
+    background-image: url("../../images/hair-circle.jpg");
+}
+
+#serviceimg .second {
+    background-image: url("../../images/manicure-circle.jpg");
+}
+
+#serviceimg .third {
+    background-image: url("../../images/makeup-circle.jpg");
+}
+
+#fromourblog .firstcol, .secondcol {
+    padding-bottom: 50px;
+}
+
+#fromourblog img {
+    float: left;
+    padding-right: 15px;
+}
+
+#fromourblog .blog-heading {
+    padding-left: 0px;
+
+    font-size: 24px;
+}
+
+#fromourblog .firstcol a {
+    color: #d52349;
+}
+
+#fromourblog button {
+    font-size: 15px;
+    padding: 8px 18px;
+    margin-top: 18px;
+    border-radius: 5px;
+    border: 0px;
+    background: #252122;
+}
+
+#fromourblog button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ------------------------------------------
+    ABOUT US
+------------------------------------------ */
+
+#about-us {
+    margin: 30px 0 15px;
+}
+
+#about-us #main {
+    width: 100%;
+}
+
+#about-us li > p {
+    font-size: 15px;
+}
+
+#about-us #rewards {
+    padding-top: 15px;
+}
+
+#about-us #rewards img {
+    margin: 0 30px;
+    padding-bottom: 15px;
+}
+
+#about-us button {
+    font-size: 15px;
+    padding: 8px 18px;
+    margin-top: 18px;
+    border-radius: 5px;
+    border: 0px;
+    background: #252122;
+}
+
+#about-us button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#about-us strong {
+    letter-spacing: 1px;
+}
+
+#about-us #we-will {
+    font-size: 18px;
+    color:#c51349;
+}
+
+#about-us #sub-menu a {
+    color: #d52349;
+    text-decoration: underline;
+}
+
+#about-us #sub-menu a:hover {
+    text-decoration: none;
+}
+
+/* ------------------------------------------
+    BEFORE YOUR CHANGES
+------------------------------------------ */
+
+#bya {
+    margin: 30px 0 15px;
+}
+
+#bya #main-img {
+    width: 100%;
+}
+
+#bya li {
+    font-size: 15px;
+}
+
+#bya #sub-menu a {
+    color: #d52349;
+    text-decoration: underline;
+}
+
+#bya #sub-menu a:hover {
+    text-decoration: none;
+}
+
+/* ------------------------------------------
+    TEAM BIOS
+------------------------------------------ */
+#team-bio {
+    padding: 3% 0 5% 0;
+}
+
+#team-bio #filterOptions li {
+    -webkit-box-shadow: 0px 0.9px 1px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0.9px 1px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0.9px 1px 0px rgba(0,0,0,0.25);
+    margin: 0px 8px 10px 0px;
+    border-radius: 4px;
+}
+
+#team-bio #filterOptions > li a {
+    color: #333;
+}
+
+#team-bio #filterOptions > li a:hover {
+    text-decoration: none;
+    background: #333333;
+    color: #fff;
+}
+
+#team-bio #filterOptions > li a:focus {
+    background: #d52349;
+    color: #fff;
+}
+
+#team-bio .grid {
+    padding-left: 0px;
+    list-style: none;
+}
+
+#team-bio #bio-pic {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#team-bio #bio-job {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+}
+
+#team-bio #border-img {
+    -webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5px
+}

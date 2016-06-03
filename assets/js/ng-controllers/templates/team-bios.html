@@ -1,0 +1,44 @@
+<!-- Media Box -->
+<div class="media-box Stylists">
+    <div class="media-box-image">
+        <div data-width="320" data-height="214" data-thumbnail="{{ employee.image }}"></div>
+
+        <div class="thumbnail-overlay">
+            <a href="#" data-toggle="modal" data-target="#modalAlejandra" class="btn btn-sm btn-default disabled">More Details</a>
+        </div>
+    </div>
+
+    <div class="media-box-content">
+        <div class="media-box-title">
+            {{ employee.name }}<br />
+            <span style="font-weight: normal;">{{ employee.title }}</span>
+        </div>
+    </div>
+</div><!-- /media-box -->
+
+<!-- Modal - Employee Information -->
+<div class="modal fade" id="modalAlejandra" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <!-- Header -->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title text-center" id="myModalLabel"><strong>{{ employee.name }} </strong><small>{{ employee.name }}</small></h4>
+            </div>
+
+            <!-- Body -->
+            <div class="modal-body">
+                <p>
+                    <img id="bio-pic" class="pull-left" ng-src="{{ employee.image }}" style="padding: 0px 30px 20px 0px; width: 50%;" />
+                    {{ employee.description }}
+                </p>
+            </div>
+
+            <!-- Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <a href="contact-us.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
+            </div>
+        </div><!-- /modal-content -->
+    </div><!-- /modal-dialog -->
+</div><!-- /modal -->

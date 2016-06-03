@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Massage Therapists</title>
+   	<link>..</link>
+        <generator>jAlbum 10</generator>
+   		<description></description>
+        <item>
+            <title>Alexandra</title>
+            <link>slides/Alexandra.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description>Alexandra - Massage Therapist</description>
+            <media:description type="html">Alexandra - Massage Therapist</media:description>
+            <media:thumbnail url="thumbs/Alexandra.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Alexandra.jpg" width="720" height="480"/>
+            <jalbum:exif originalDate="1/31/12 1:54 PM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Alexandra.jpg</guid>
+        </item>
+        <item>
+            <title>Ankita</title>
+            <link>slides/Ankita.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description>Ankita  - Massage Therapist</description>
+            <media:description type="html">Ankita  - Massage Therapist</media:description>
+            <media:thumbnail url="thumbs/Ankita.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Ankita.jpg" width="720" height="480"/>
+            <jalbum:exif originalDate="1/20/12 11:56 AM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Ankita.jpg</guid>
+        </item>
+        <item>
+            <title>Anthony</title>
+            <link>slides/Anthony.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description>Anthony - Massage Therapist</description>
+            <media:description type="html">Anthony - Massage Therapist</media:description>
+            <media:thumbnail url="thumbs/Anthony.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Anthony.jpg" width="720" height="480"/>
+            <jalbum:exif originalDate="1/20/12 11:52 AM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Anthony.jpg</guid>
+        </item>
+        <item>
+            <title>Francis</title>
+            <link>slides/Francis.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description>Francis - Massage Therapist</description>
+            <media:description type="html">Francis - Massage Therapist</media:description>
+            <media:thumbnail url="thumbs/Francis.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Francis.jpg" width="720" height="480"/>
+            <jalbum:exif originalDate="1/20/12 10:43 AM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Francis.jpg</guid>
+        </item>
+        <item>
+            <title>Katrina</title>
+            <link>slides/Katrina.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description>Katrina - Massage Therapist</description>
+            <media:description type="html">Katrina - Massage Therapist</media:description>
+            <media:thumbnail url="thumbs/Katrina.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Katrina.jpg" width="720" height="480"/>
+            <jalbum:exif originalDate="1/20/12 10:51 AM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Katrina.jpg</guid>
+        </item>
+        <item>
+            <title>Marcelina</title>
+            <link>slides/Marcelina.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description>Marcelina - Massage Therapist</description>
+            <media:description type="html">Marcelina - Massage Therapist</media:description>
+            <media:thumbnail url="thumbs/Marcelina.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Marcelina.jpg" width="720" height="480"/>
+            <jalbum:exif originalDate="1/20/12 10:49 AM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Marcelina.jpg</guid>
+        </item>
+        <item>
+            <title>Marissa</title>
+            <link>slides/Marissa.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description>Marissa - Massage Therapist</description>
+            <media:description type="html">Marissa - Massage Therapist</media:description>
+            <media:thumbnail url="thumbs/Marissa.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Marissa.jpg" width="720" height="480"/>
+            <jalbum:exif originalDate="1/20/12 11:16 AM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Marissa.jpg</guid>
+        </item>
+        <item>
+            <title>Sergio</title>
+            <link>slides/Sergio.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description>Sergio - Massage Therapist II</description>
+            <media:description type="html">Sergio - Massage Therapist II</media:description>
+            <media:thumbnail url="thumbs/Sergio.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Sergio.jpg" width="720" height="480"/>
+            <jalbum:exif originalDate="1/20/12 11:44 AM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Sergio.jpg</guid>
+        </item>
+    </channel>
+</rss>

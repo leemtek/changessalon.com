@@ -1,0 +1,84 @@
+/* ------------------------------------------
+    Valentines Promo
+------------------------------------------ */
+
+#val-p #first {
+    background: url("../../assets/img/promos/2016-valentines.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 495px;
+}
+
+#val-p #first .col-md-4 {
+    margin: 30px;
+    max-width: 400px;
+}
+
+#val-p #header-info {
+    background-color: #DD514A;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#val-p #header-info h2 {
+    margin: 0px;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#val-p #first #header-info h2 {
+    font-size: 18px!important;
+}
+
+#val-p #body-info {
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#val-p #body-info p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#val-p #body-info .btn {
+    padding: 18px 15px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+#val-p #second {
+    background: url("../../assets/img/promos/2016-valentines-hearts.jpg") repeat center center;
+}
+
+#val-p #second #order-online {
+    margin: 30px 0;
+}
+
+#val-p #second #new-year {
+    margin: 19px;
+}
+
+#val-p #second #header-info {
+    margin-top: 30px;
+}
+
+#val-p #second #body-info {
+    margin-bottom: 30px;
+}
+
+@media(max-width: 991px) {
+    #val-p #first {
+        padding-top: 1px
+    }
+}

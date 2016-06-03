@@ -1,0 +1,28 @@
+<gallery>
+	<!-- The line below sets the path to the folder where the images are stored -->
+	<setup>
+	<!-- The the following lines are used to customize the look of the gallery -->
+	 </setup>
+	<!-- The following lines set  the names of your images and thumbnails -->
+	<item>
+		<img>01.jpg</img>
+	</item>
+	<item>
+		<img>02.jpg</img>
+	</item>
+	<item>
+		<img>03.jpg</img>
+	</item>
+	<item>
+		<img>04.jpg</img>
+	</item>
+	<item>
+		<img>05.jpg</img>
+	</item>
+	<item>
+		<img>06.jpg</img>
+	</item>
+	<item>
+		<img>07.jpg</img>
+	</item>
+</gallery>

@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">	
+	<!-- saved from url=(0014)about:internet -->
+<head>
+		<title>ChangesTeam &raquo; Estheticians</title>
+				
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="title" content="ChangesTeam" />
+<meta name="keywords" content="ChangesTeam, Estheticians, jAlbum 10, Photojack" />
+<meta name="description" content="ChangesTeam" />
+<meta property="og:title" content="ChangesTeam" />
+<meta property="og:site_name" content="Jalbum" />
+<meta property="fb:app_id" content="140299612674733" />
+		<link href="../res/common.css" rel="stylesheet" type="text/css" />
+		<link href="../res/styles.css" rel="stylesheet" type="text/css" />
+		<script src="../res/jquery-1.3.2.js" type="text/javascript"></script>
+		<script src="../res/jquery.galleriffic.js" type="text/javascript"></script>
+		<script src="../res/jquery.opacityrollover.js" type="text/javascript"></script>
+		<script type="text/javascript">
+					$(function() {
+						var onMouseOutOpacity = 0.67;
+						$('#thumbs ul.thumbs li.thumbContainer').opacityrollover({
+							mouseOutOpacity:   onMouseOutOpacity,
+							mouseOverOpacity:  1.0,
+							fadeSpeed:         'fast',
+							exemptionSelector: '.selected'
+						});
+						
+						var gallery = $('#thumbs').galleriffic({
+							delay:                     4000,
+							numThumbs:                 9,
+							preloadAhead:              5,
+							enableTopPager:            false,
+							enableBottomPager:         true,
+							maxPagesToShow:            5,
+							imageContainerSel:         '#photo',
+							captionContainerSel: 	  '#caption',
+							loadingContainerSel:       '#loader',
+							controlsContainerSel:	  '#controls',
+							renderSSControls:          true,
+							renderNavControls:         false,
+							playLinkText:              'Play slideshow',
+        						pauseLinkText:             'Pause slideshow',
+							nextPageLinkText:          'Next',
+							prevPageLinkText:          'Prev',
+							enableHistory:             false,
+							autoStart:                 true,
+							syncTransitions:           true,
+							defaultTransitionDuration: 1000,
+							onSlideChange:             function(prevIndex, nextIndex) {
+								this.$captionContainer.empty();
+								
+								this.find('ul.thumbs').children()
+									.eq(prevIndex).fadeTo('fast', onMouseOutOpacity).end()
+									.eq(nextIndex).fadeTo('fast', 1.0);
+							},
+							onTransitionIn: function(newSlide, newCaption, isSync) {
+								newSlide.fadeTo(this.getDefaultTransitionDuration(isSync), 1.0);
+								
+								var active = this.$captionContainer.data('active');
+								if (active) {
+									$(active).show().siblings().hide();
+								}
+
+								this.$captionContainer.find('.current').fadeTo('fast', 1.0);
+							},
+							onPageTransitionOut:       function(callback) {
+								this.fadeTo('fast', 0.0, callback);
+							},
+							onPageTransitionIn:        function() {
+								if (true) {
+									$('#thumbs').show();
+								}
+								this.$captionContainer.fadeTo('fast', 1.0);
+								this.fadeTo('fast', 1.0);							
+							}
+						});
+					});
+		</script>
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+<style type="text/css">
+	h1 {
+		padding:2px 8px;	
+	}
+
+	#wrapper {
+		width:1009px;
+	}
+
+	#main {
+		width:744px;
+		margin-right:8px;
+	}
+
+	#main .actions,
+	#main .categories {
+		margin-top:12px;
+	}
+
+	#main .photoContainer {
+		margin-top:12px;
+		height:504px;
+		width:744px;
+	}
+	
+	#loader {
+		height:504px;
+		width:744px;
+		top:12px;
+	}
+	
+	#photo span.image-wrapper {
+		top:12px;
+	}
+	
+	#photo .singlePhoto,
+	#photo a.advance-link {
+		width:744px;
+	}
+	
+	#photo .singlePhoto {
+		margin-top:12px;
+	}
+	
+	#right {
+		width:257px;
+	}	
+
+	#right .panel {
+		min-height:584px;
+	}
+	
+	#right ul.thumbs {
+		padding: 0 3px 0 8px;
+	}
+	
+	#right ul.thumbs li {
+		margin-top:5px;
+		margin-right:5px;
+		height:76px;
+		width:76px;
+	}
+	
+	#right ul.thumbs a img {
+		padding:3px;
+		border-width:1px;
+	}
+	
+	#videoComment {
+		padding-top:8px;
+		margin: 0 8px 8px 8px;		
+	}
+</style>
+	<link rel="alternate" href="album.rss" type="application/rss+xml"/>
+</head>
+	<body>
+		<div id="wrapper">
+			<div id="right">
+				<div class="panel">
+					
+						<div class="nothing">&nbsp;</div>
+						
+						<div id="thumbs">
+							<ul class="thumbs">
+									<li class="thumbContainer">
+										<a class="thumb" href="slides/Amy.jpg" title="Amy"><img src="thumbs/Amy.jpg" alt="Amy" /></a>
+										<div class="caption">
+												<div class="captionContent">
+		<p>Amy - Esthetician - With 20 years of experience in skin care and makeup, Amy enjoys working with her clients to achieve their individual needs. Specializing in sensitive skin, acne, and photo-damaged skin care, Amy believes her most important job is to educate her clients. She is known for being able to break things down into a simple explanation.
+Brazilian and brow waxes are some of her specialty waxing areas and she strives to make her clients feel relaxed and comfortable. With her B.S. in Theater, Amy loves working with her clients to achieve the perfect makeup for both everyday and special occasions.</p>
+	</div>
+
+
+										</div>
+									</li>
+									<li class="thumbContainer">
+										<a class="thumb" href="slides/Cat.jpg" title="Cat"><img src="thumbs/Cat.jpg" alt="Cat" /></a>
+										<div class="caption">
+												<div class="captionContent">
+		<p>Cat - Esthetician III</p>
+	</div>
+
+
+										</div>
+									</li>
+									<li class="thumbContainer">
+										<a class="thumb" href="slides/Holly.jpg" title="Holly"><img src="thumbs/Holly.jpg" alt="Holly" /></a>
+										<div class="caption">
+												<div class="captionContent">
+		<p>Holly - Esthetician</p>
+	</div>
+
+
+										</div>
+									</li>
+									<li class="thumbContainer">
+										<a class="thumb" href="slides/Krys.jpg" title="Krys"><img src="thumbs/Krys.jpg" alt="Krys" /></a>
+										<div class="caption">
+												<div class="captionContent">
+		<p>Krys - Esthetician II</p>
+	</div>
+
+
+										</div>
+									</li>
+									<li class="thumbContainer">
+										<a class="thumb" href="slides/Lupe.jpg" title="Lupe"><img src="thumbs/Lupe.jpg" alt="Lupe" /></a>
+										<div class="caption">
+												<div class="captionContent">
+		<p>Lupe - Esthetician II</p>
+	</div>
+
+
+										</div>
+									</li>
+									<li class="thumbContainer">
+										<a class="thumb" href="slides/Paulette.jpg" title="Paulette"><img src="thumbs/Paulette.jpg" alt="Paulette" /></a>
+										<div class="caption">
+												<div class="captionContent">
+		<p>Paulette - Esthetician II</p>
+	</div>
+
+
+										</div>
+									</li>
+									<li class="thumbContainer">
+										<a class="thumb" href="slides/Rachelle.jpg" title="Rachelle"><img src="thumbs/Rachelle.jpg" alt="Rachelle" /></a>
+										<div class="caption">
+												<div class="captionContent">
+		<p>Rachelle - Esthetician - My passion for makeup skin care and wellness started at a very young age and lead me to school to acquire a license in skin care. My main goal is to educate others on how to take care of their skin. I have had the pleasure of working with Changes Salon and Day Spa for 5 years. I studied Esthetics at the San Fransisco Institute of Esthetics and Cosmetology - A Paul Mitchell Partner school in San Fransisco, CA. I've had great opportunities to work with amazing skin care lines such as, Cosmedix and Karin Herzog while at Changes. I have gone through Medical Esthetic training provided by Cosmedix. I enjoy doing makeup applications for people who want to look their very best for everyday or special events such as weddings, proms, photo shoots, or just because they want to feel beautiful. I'm well known for my waxing skills as being fast and efficient while trying to make my clients feel as comfortable as possible. I'm proud to be able to offer a relaxing, educational spa experience for every client the addresses their unique skin care goals.
+ </p>
+	</div>
+
+
+										</div>
+									</li>
+									<li class="thumbContainer">
+										<a class="thumb" href="slides/Soheila.jpg" title="Soheila"><img src="thumbs/Soheila.jpg" alt="Soheila" /></a>
+										<div class="caption">
+												<div class="captionContent">
+		<p>Soheila - Esthetician</p>
+	</div>
+
+
+										</div>
+									</li>
+									<li class="thumbContainer">
+										<a class="thumb" href="slides/Victoria.jpg" title="Victoria"><img src="thumbs/Victoria.jpg" alt="Victoria" /></a>
+										<div class="caption">
+												<div class="captionContent">
+		<p>Victoria - Esthetician II</p>
+	</div>
+
+
+										</div>
+									</li>
+							</ul>						
+							<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
+						
+							<div id="controls"></div>
+						
+				</div>
+			</div>
+			<div id="main">
+				<h1><a href="../index.html">ChangesTeam</a> &raquo; Estheticians</h1>		
+				<div class="photoContainer">
+					
+						<div id="loader"></div>
+						<div id="photo"></div>
+				</div>
+				<div id="caption"></div>
+			</div>
+			<div class="clear"></div>													
+		</div>
+		
+	<div id="jalbumwidgetcontainer"></div>
+<script type="text/javascript" charset="utf-8"><!--//--><![CDATA[//><!--
+_jaSkin = "Photojack";
+_jaStyle = "Black.css";
+_jaVersion = "10.3.1";
+_jaGeneratorType = "desktop";
+_jaLanguage = "en";
+_jaPageType = "index";
+_jaRootPath = "..";
+_jaUserName = "changessalon";
+var script = document.createElement("script");
+script.type = "text/javascript";
+script.src = "http://jalbum.net/widgetapi/load.js";
+document.getElementById("jalbumwidgetcontainer").appendChild(script);
+//--><!]]></script>
+
+</body>
+</html>

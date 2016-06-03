@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>ChangesTeam</title>
+   	<link>.</link>
+        <generator>jAlbum 10</generator>
+   		<description>Meet our highly skilled Stylists, Manicurists, Estheticians and Massage Therapists.</description>
+    	<jalbum:link rel="sub" href="Estheticians/album.rss" />   	
+    	<jalbum:link rel="sub" href="Manicurists/album.rss" />   	
+    	<jalbum:link rel="sub" href="Massage Therapists/album.rss" />   	
+    	<jalbum:link rel="sub" href="Stylists/album.rss" />   	
+    	<jalbum:link rel="sub" href="Support Team/album.rss" />   	
+        <item>
+            <title>Team2012</title>
+            <link>slides/Team2012.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Team2012.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Team2012.jpg" width="720" height="443"/>
+            <jalbum:exif originalDate="1/20/12 9:22 AM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Team2012.jpg</guid>
+        </item>
+    </channel>
+</rss>

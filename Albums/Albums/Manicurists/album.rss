@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Manicurists</title>
+   	<link>..</link>
+        <generator>jAlbum 10</generator>
+   		<description></description>
+        <item>
+            <title>Amber</title>
+            <link>slides/Amber.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description>Amber - Manicurist - I entered manicuring school in 1998 after winning an art scholarship. I did nails for years then went on to explore other careers, everything from medical assisting to welding. I came to realize my passion is in creating beautiful nails for my guests. </description>
+            <media:description type="html">Amber - Manicurist - I entered manicuring school in 1998 after winning an art scholarship. I did nails for years then went on to explore other careers, everything from medical assisting to welding. I came to realize my passion is in creating beautiful nails for my guests. </media:description>
+            <media:thumbnail url="thumbs/Amber.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Amber.jpg" width="720" height="480"/>
+            <jalbum:exif originalDate="1/20/12 10:38 AM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Amber.jpg</guid>
+        </item>
+        <item>
+            <title>Angela</title>
+            <link>slides/Angela.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description>Angela - Manicurist II</description>
+            <media:description type="html">Angela - Manicurist II</media:description>
+            <media:thumbnail url="thumbs/Angela.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Angela.jpg" width="720" height="480"/>
+            <jalbum:exif originalDate="1/20/12 10:37 AM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Angela.jpg</guid>
+        </item>
+        <item>
+            <title>Gloria</title>
+            <link>slides/Gloria.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description>Gloria - Manicurist</description>
+            <media:description type="html">Gloria - Manicurist</media:description>
+            <media:thumbnail url="thumbs/Gloria.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Gloria.jpg" width="720" height="480"/>
+            <jalbum:exif originalDate="1/31/12 1:46 PM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Gloria.jpg</guid>
+        </item>
+        <item>
+            <title>Lily</title>
+            <link>slides/Lily.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description>Lily - Manicurist</description>
+            <media:description type="html">Lily - Manicurist</media:description>
+            <media:thumbnail url="thumbs/Lily.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Lily.jpg" width="720" height="480"/>
+            <jalbum:exif originalDate="1/31/12 1:42 PM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Lily.jpg</guid>
+        </item>
+        <item>
+            <title>Tamara</title>
+            <link>slides/Tamara.jpg#</link>
+            <pubDate>Fri, 15 Jun 2012 11:50:23 -0700</pubDate>
+            <description>Tamara - Manicurist</description>
+            <media:description type="html">Tamara - Manicurist</media:description>
+            <media:thumbnail url="thumbs/Tamara.jpg" width="70" height="70"/>
+            <media:content type="image/jpeg" url="slides/Tamara.jpg" width="720" height="480"/>
+            <jalbum:exif originalDate="1/20/12 10:30 AM" cameraMake="Canon" cameraModel="Canon EOS-1D Mark IV"/>
+            <guid isPermaLink="false">slides/Tamara.jpg</guid>
+        </item>
+    </channel>
+</rss>

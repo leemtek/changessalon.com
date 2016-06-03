@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		
+		
+		
+		
+		<simpleviewergallery frameColor="#999999" frameWidth="20" galleryStyle="modern" maxImageHeight="480" maxImageWidth="345" showFullscreenButton="true" showOpenButton="true" textColor="#ffffff" title="&lt;font color=&quot;#ffffff&quot; face=&quot;Tahoma, Arial, Helvetica, sans-serif&quot;&gt;Stylists&lt;/font&gt;" thumbColumns="3" thumbRows="3" thumbPosition="left" useFlickr="false">
+			
+			
+			
+				
+				
+				
+				
+			
+			
+		
+		
+			
+		<image imageURL="slides/03.jpg" thumbURL="thumbs/03.jpg" linkTarget="_blank">
+	<caption><![CDATA[<font color="#ffffff" face="Tahoma, Arial, Helvetica, sans-serif">03</font>]]></caption>
+	
+		</image>
+	
+			
+			
+			
+				
+				
+				
+				
+			
+			
+		
+		
+			
+		<image imageURL="slides/Caron.jpg" thumbURL="thumbs/Caron.jpg" linkTarget="_blank">
+	<caption><![CDATA[<font color="#ffffff" face="Tahoma, Arial, Helvetica, sans-serif">Caron is a Bumble and Bumble Network Educator and Prive Concierge. She is a master cutter with training from Vidal Sassoon and ....</font><br /><br /><font color="#ffffff" face="Tahoma, Arial, Helvetica, sans-serif">Caron</font>]]></caption>
+	
+		</image>
+	
+
+	</simpleviewergallery>
+

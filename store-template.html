@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+[--DEFINE LINK_TO_PAGE--]
+<a href="[-- OUTPUT_DIRECTORY_URL --]/[-- PAGE.FileName --]"[-- IF PAGE.LinkGraphic --] class="pa_lk_img"[-- END_IF --]>
+   [-- IF PAGE.LinkName --]
+   [-- IF PAGE.LinkGraphic --]
+   [-- PAGE.LinkGraphic --]<br>[-- PAGE.LinkName --][-- IF PAGE.LinkText --][-- IF PAGE.TextWrap "off" --]<br>[-- END_IF --] <span>[-- PAGE.LinkText --]</span>[-- END_IF --]
+    [-- ELSE --]
+    [-- PAGE.LinkName --][-- IF PAGE.LinkText --][-- IF PAGE.TextWrap "off" --]<br>[-- END_IF --] <span>[-- PAGE.LinkText --]</span>[-- END_IF --]
+    [-- END_IF --]
+    [-- ELSE_IF PAGE.LinkGraphic --]
+    [-- PAGE.LinkGraphic --][-- IF PAGE.LinkText --][-- IF PAGE.TextWrap "off" --]<br>[-- END_IF --] <span>[-- PAGE.LinkText --]</span>[-- END_IF --]
+    [-- ELSE --]
+    [-- PAGE.Name REMOVE_HTML --][-- IF PAGE.LinkText --][-- IF PAGE.TextWrap "off" --]<br>[-- END_IF --] <span>[-- PAGE.LinkText --]</span>[-- END_IF --]
+    [-- END_IF --]
+</a>
+[--END_DEFINE LINK_TO_PAGE--]
+
+[-- DEFINE PAGE --]
+[-- VAR.Pound "" --]
+[-- VAR.Secure "no" --]
+[-- VAR.TextColor PAGE.TextColor --]
+[-- VAR.BackgroundColor PAGE.BackgroundColor --]
+[-- VAR.LinkColor PAGE.LinkColor --]
+[-- VAR.VisitedLinkColor PAGE.VisitedLinkColor --]
+[-- VAR.ActiveLinkColor PAGE.ActiveLinkColor --]
+[-- VAR.BackgroundImage PAGE.BackgroundImage --]
+[-- VAR.PageWidth PAGE.PageWidth --]
+[-- VAR.PageName PAGE.Name --]
+[-- VAR.LinkName PAGE.LinkName --]
+[-- VAR.FileName PAGE.FileName --]
+[-- VAR.TF_Link PAGE.Name --]
+[-- VAR.Text2 PAGE.Text2 --]
+[-- VAR.Text3 PAGE.Text3 --]
+
+[-- IF PAGE.Columns "One column" --]
+[-- VAR.PageColumns "1" --]
+[-- VAR.PageColumnWidth "100%" --]
+[-- ELSE_IF PAGE.Columns "Two columns" --]
+[-- VAR.PageColumns "2" --]
+[-- VAR.PageColumnWidth "50%" --]
+[-- ELSE_IF PAGE.Columns "Three columns" --]
+[-- VAR.PageColumns "3" --]
+[-- VAR.PageColumnWidth "33%" --]
+[-- ELSE_IF PAGE.Columns "Four columns" --]
+[-- VAR.PageColumns "4" --]
+[-- VAR.PageColumnWidth "25%" --]
+[-- ELSE_IF PAGE.Columns "Five columns" --]
+[-- VAR.PageColumns "5" --]
+[-- VAR.PageColumnWidth "20%" --]
+[-- END_IF --]
+
+[-- IF PAGE.Layout "Centered" --]
+[-- VAR.Alignment "center" --]
+[-- ELSE_IF PAGE.Layout "Right aligned" --]
+[-- VAR.Alignment "right" --]
+[-- ELSE --]
+[-- VAR.Alignment "left" --]
+[-- END_IF --]
+
+[-- VAR.SearchProductField PAGE.SearchProductField --]
+
+[-- INCLUDE 3Column-SelectTheme.sst PROCESS --]
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>[-- IF PAGE.Title --][-- PAGE.Title --][-- ELSE --]Changes Salon &amp; Day Spa | Center for Well Being[-- END_IF --]</title>
+        <link href="http://changessalon.com/changes.css" rel="stylesheet" type="text/css">
+        [-- IF PAGE.MetaKeywords --]<meta name="keywords" content="[-- PAGE.MetaKeywords --]">[-- END_IF --]
+        [-- IF PAGE.MetaDescription --]<meta name="description" content="[-- PAGE.MetaDescription --]">[-- END_IF --]
+        <script language="JavaScript" src="http://changessalon.com/functions.js"></script>
+        [-- INCLUDE 3Column.css PROCESS --]
+    </head>
+
+    <body background="http://changessalon.com/images/back.jpg" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('http://changessalon.com/nav/navon_01a.gif','http://changessalon.com/nav/navon_01b.gif','http://changessalon.com/nav/navon_01c.gif','http://changessalon.com/nav/navon_01d.gif','http://changessalon.com/nav/navon_02a.gif','http://changessalon.com/nav/navon_02b.gif','http://changessalon.com/nav/navon_02c.gif','http://changessalon.com/nav/navon_02d.gif','http://changessalon.com/nav/navon_03a.gif','http://changessalon.com/nav/navon_03b.gif','http://changessalon.com/nav/navon_03c.gif','http://changessalon.com/nav/navon_04a.gif','http://changessalon.com/nav/navon_04b.gif','http://changessalon.com/nav/navon_04c.gif','http://changessalon.com/nav/navon_01e.gif','http://changessalon.com/nav/navon_02e.gif','http://changessalon.com/nav/navon_03d.gif','http://changessalon.com/nav/navon_04d.gif','nav/navon_04e.gif')">
+        <table width="100%" height="100%" cellpadding="0" cellspacing="0">
+            <tr>
+                <td height="1" valign="top"><table width="970" align="center" cellpadding="0" cellspacing="0">
+                        <tr valign="top">
+                            <td width="29" background="http://changessalon.com/images/back_left.jpg"><img src="http://changessalon.com/images/spacer.gif" width="29" height="29"></td>
+                            <td width="4" bgcolor="#FFFFFF"><img src="http://changessalon.com/images/spacer.gif" width="4" height="4"></td>
+                            <td width="904" background="http://changessalon.com/images/back_page.jpg">
+                                <table width="904" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td style="background-image: url(http://changessalon.com/images/deserves/header_left.jpg); background-repeat: no-repeat; width: 140px;">
+                                            <table width="140" border="0" cellspacing="0" cellpadding="12">
+                                                <tr>
+                                                    <td>
+                                                        <div style="margin-bottom: 4px;">
+                                                            <a href="http://www.facebook.com/pages/Walnut-Creek-CA/Changes-Salon-Day-Spa/172296847881" target="_blank"><img src="http://changessalon.com/images/deserves/social_fb.png" border="0"></a></div>
+                                                        <div style="margin-bottom: 4px;"><a href="http://twitter.com/changeswc" target="_blank"><img src="http://changessalon.com/images/deserves/social_twitter.png" border="0"></a></div>
+                                                        <div style="margin-bottom: 4px;"><a href="http://changessalon.wordpress.com/" target="_blank"><img src="http://changessalon.com/images/deserves/social_blog.png" border="0"></a></div>
+                                                        <div><a href="http://www.changessalon.com/calendar.html" target="_blank"><img src="http://changessalon.com/images/deserves/social_calendar.png" border="0"></a></div></td>
+                                                </tr>
+                                            </table></td>
+                                        <td><img src="http://changessalon.com/images/deserves/header_middle.jpg" alt="Relax, Renew and Create a Whole New You"></td>
+                                        <td><a href="http://www.changessalon.com/specials.htm" target="_blank"><img src="http://changessalon.com/images/262Salon_photos2.jpg" alt="Changes Salon &amp; Day Spa | Center for Well Being" border="0"></a></td>
+                                    </tr>
+                                </table>
+                                <!--table width="904" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td><img src="http://changessalon.com/images/header_01.jpg" width="252" height="128"></td>
+                                    <td><img src="http://changessalon.com/images/header_02.jpg" alt="Relax, Renew and Create a Whole New You" width="432" height="128"></td>
+                                    <td><a href="index.htm"><img src="http://changessalon.com/images/header_03.jpg" alt="Changes Salon &amp; Day Spa | Center for Well Being" width="220" height="128" border="0"></a></td>
+                                  </tr>
+                                </table-->
+                                <table width="904" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td colspan="2" bgcolor="#FFFFFF"><img src="http://changessalon.com/images/spacer.gif" width="904" height="4"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="http://changessalon.com/images/header_div.gif" width="904" height="7"></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="236" height="26" bgcolor="#FFFFFF" class="topnavDiv"><div class="phone">Contact
+                                                us at <span class="tel">925.947.1814</span></div></td>
+                                        <td width="666" bgcolor="#FFFFFF" class="topnavDiv">
+                                            <div align="right">
+                                                <a href="page4.html" class="topnav">Information</a>&nbsp;|&nbsp;
+                                                <a href="http://changessalon.com/directions.htm" class="topnav">Directions/Map</a>&nbsp;|&nbsp;
+                                                <a href="http://changessalon.com/contact_us.htm" class="topnav">Contact Us</a>&nbsp;|&nbsp;
+                                                <a href="http://changessalon.com/specials.htm" class="topnav">Specials</a>&nbsp;|&nbsp;
+                                                <a href="http://changessalon.com/drop_a_hint.htm" class="topnav">Drop a Hint</a>&nbsp;|&nbsp;
+                                                <a href="http://changessalon.com/index.htm" class="topnav">HOME</a>&nbsp;&nbsp;
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="http://changessalon.com/images/header_div.gif" width="904" height="7"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" bgcolor="#FFFFFF"><img src="http://changessalon.com/images/spacer.gif" width="904" height="4"></td>
+                                    </tr>
+                                </table>
+                                <table width="904" cellspacing="0" cellpadding="0">
+                                    <tr valign="top">
+                                        <td width="236">
+                                            <style type="text/css">
+                                                #left {
+                                                    background: #A6BAB9;
+                                                    color: #FFFFFF;
+                                                }                  
+                                                
+                                                #left a {
+                                                    color: #FFFFFF;
+                                                }                                                
+                                            </style>
+                                            <table width="236"  cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td bgcolor="#ffffff" id="left">
+                                                        
+                                                        [-- IF PAGE.NumLinks "0" --]
+                                                        [-- ELSE --]
+                                                        <h2>Categories</h2>
+                                                        [-- LOOP LINKS --]
+                                                        [-- LINK 3Column.sst --]
+                                                        [-- END_LOOP LINKS --]
+                                                        [-- END_IF --]
+
+                                                        [-- INCLUDE 3Column-LeftBar.sst PROCESS --]
+
+                                                        [-- IF TellAFriend --][-- TellAFriend VAR.TF_Link --][-- END_IF --]                                                        
+                                                        <a href="/store/page4.html">Information</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td bgcolor="#FFFFFF"><img src="http://changessalon.com/images/spacer.gif" width="236" height="2"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td background="http://changessalon.com/images/header_div.gif"><img src="http://changessalon.com/images/spacer.gif" width="236" height="7"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><img src="http://changessalon.com/images/spacer.gif" width="236" height="72"></td>
+                                                </tr>
+                                            </table></td>
+                                        <td width="2" bgcolor="#FFFFFF"><img src="http://changessalon.com/images/spacer.gif" width="2" height="10"></td>
+                                        <td width="666">
+
+                                            <br /><br />
+
+                                            <img src="http://changessalon.com/images/shopping.gif" alt="Shopping" border="0" />
+                                            
+                                            <br />
+                                            
+                                            [-- IF PAGE.Text1 --]       
+                                            <br />
+                                            <table width="666" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                    <tr valign="top">
+                                                        <td width="40">
+                                                        <td class="body" width="626">
+                                                            <p>[-- PAGE.Text1 --]</p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            [-- END_IF --]
+                                            
+                                            <br />
+                                            
+                                            [-- IF PAGE.ProductsPerPage "0" --]
+                                            [-- ELSE --]
+                                            <div id="pagination"><span id="pagination_inner">[-- PrevNext NoCenter --]</span></div>
+                                            [-- END_IF --]
+
+                                            <table cellpadding="0" cellspacing="10" border="0" width="100%" class="[-- VAR.PageColumns --]"> 
+                                                [-- LOOP PRODUCTS VAR.PageColumns --]
+                                                <td class="pr [-- VAR.Alignment --]" width="[-- VAR.PageColumnWidth --]">[-- PRODUCT 3Column-Product.sst --]</td>
+                                                [-- END_LOOP PRODUCTS --]
+                                            </table>
+
+                                            [-- IF PAGE.ProductsPerPage "0" --]
+                                            [-- ELSE --]
+                                            <div id="pagination2"><span id="pagination_inner2">[-- PrevNext NoCenter --]</span></div>
+                                            [-- END_IF --]                                            
+                                            <!--- body --->
+                                        </td>
+                                    </tr>
+                                </table></td>
+                            <td width="4" bgcolor="#FFFFFF"><img src="http://changessalon.com/images/spacer.gif" width="4" height="4"></td>
+                            <td width="29" background="http://changessalon.com/images/back_right.jpg"><img src="http://changessalon.com/images/spacer.gif" width="29" height="29"></td>
+                        </tr>
+                    </table></td>
+            </tr>
+            <tr>
+                <td height="100%" valign="top" bgcolor="#D9E9EA"><!-- #BeginLibraryItem "/Library/footer.lbi" -->    <table width="100%"  cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td background="http://changessalon.com/images/header_div.gif"><img src="/images/spacer.gif" width="10" height="3"></td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#FFFFFF"><img src="http://changessalon.com/images/spacer.gif" width="10" height="4"></td>
+                        </tr>
+                        <tr>
+                            <td height="26" class="footer"><div align="center">&copy; 2006-2008 Changes
+                                    Salon &amp; Day Spa. All rights reserved. | 925.947.1814 | 1475 North Broadway
+                                    | Walnut Creek, CA 94596 | <a href="mailto:info@changessalon.com" class="footer">info@changessalon.com</a> | <a href="http://www.marissaberger.com" target="_blank">Designed
+                                        by MB/I </a></div></td>
+                        </tr>
+                    </table><!-- #EndLibraryItem --></td>
+            </tr>
+        </table>
+    </body>
+</html>
+[-- END_DEFINE PAGE --]
+</body>
+</html>
