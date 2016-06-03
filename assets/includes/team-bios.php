@@ -439,8 +439,7 @@
             "Customer Service",
             "Support",
             "Albums/logo-team-bio-nophoto.jpg",
-            "I am very excited work in such a beautiful environment . As an Support Technician I am committed to
-            cleanliness, supporting my fellow team members and making all guest feel special."
+            null
         ),
     ); // $employees
     shuffle($employees);
