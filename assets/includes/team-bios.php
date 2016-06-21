@@ -429,7 +429,7 @@
             "Tati",
             "Customer Service",
             "Support",
-            "Albums/logo-team-bio-nophoto.jpg",
+            "Albums/Support/thumbs/Tati.jpg",
             "As a part of Team Changes, I am committed to providing the best customer service possible for each and
             every guest. I enjoying meeting the needs of clients and making sure they have received an amazing
             experience before they step out the door."
