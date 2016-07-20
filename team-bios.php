@@ -239,10 +239,11 @@
                 search: '#search',
                 overlayEffect: 'reveal-bottom',
                 columns: 4,
-                boxesToLoadStart: 32,
-                boxesToLoad: 32,
+                boxesToLoadStart: 200,
+                boxesToLoad: 200,
                 horizontalSpaceBetweenBoxes: 20,
                 verticalSpaceBetweenBoxes: 20,
+                noMoreEntriesWord: "All Entries Loaded",
             });
 
         </script>

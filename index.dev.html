@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="changessalonApp">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="Walnut Creek's Premier Salon and Day Spa">
+        <meta name="keywords" content="spa, hair salon, walnut creek">
+        <meta name="author" content="Changes Salon, LeemTek">
+
+        <title>Changes Salon &amp; Day Spa</title>
+
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/img/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Bootstrap -->
+        <link href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Font-awesome -->
+        <link rel="stylesheet" href="assets/bower_components/font-awesome/css/font-awesome.min.css">
+
+        <!-- LeemTek -->
+        <link href="assets/css/leemtek.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Facebook Pixels -->
+        <div ng-include="'assets/includes/facebook-pixels.html'"></div>
+    </head>
+
+    <body>
+        <!-- Google Analytics -->
+        <div ng-include="assets/includes/google-analytics.html"></div>
+
+        <!-- Promo Modal -->
+        <div ng-include="'assets/includes/20160701-promo-modal.html'"></div>
+
+        <!-- include | header -->
+        <header>
+            <div id="social" class="text-right">
+                <div class="col-md-12">
+                    <ul class="list-inline">
+                        <li><a class="btn btn-default button-black" href="https://www.facebook.com/pages/Changes-Salon-Day-Spa/172296847881" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li><a class="btn btn-default button-black" href="https://twitter.com/changeswc" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li><a class="btn btn-default button-black" href="https://instagram.com/changeswc/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+                        <li><a class="btn btn-default button-black" href="http://www.yelp.com/biz/changes-salon-and-day-spa-walnut-creek" target="_blank"><i class="fa fa-yelp fa-lg"></i></a></li>
+                        <li><a class="btn btn-default button-black" href="https://plus.google.com/u/0/112284510401602783718/posts" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a></li>
+                        <li class="hidden-xs" id="phone">925.947.1814</li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="index.html"><img src="assets/img/logo.png"></a>
+
+            <div id="sminfo">
+                <a href="salon-services.html">Salon</a>&nbsp; |&nbsp; <a href="spa-services.html">Spa</a> &nbsp;| &nbsp; <a href="store.html">Shop / Gift Cards</a>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <!-- SALON -->
+                        <li class="dropdown">
+                            <a href="salon-services.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">SALON <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="hair.html">Hair Services</a></li>
+                                <li><a href="wedding-special-event.html">Weddings &amp; Social Events</a></li>
+                                <li><a href="nails-mani-pedi.html">Nails</a></li>
+                                <li><a href="makeup-services.html">Makeup</a></li>
+                                <li><a href="hair-removal.html">Hair Removal</a></li>
+                                <li><a href="mens-salon-and-spa-services.html">Especially For Men</a></li>
+                                <li><a href="packages.html">Packages</a></li>
+                                <li><a href="vip-points.html">VIP Program</a></li>
+                                <li><a href="group-events.html">Group Events</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- SPA -->
+                        <li class="dropdown">
+                            <a href="spa-services.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">SPA <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="massage.html">Massage</a></li>
+                                <li><a href="spa-body-therapies.html">Spa Body Therapies</a></li>
+                                <li><a href="skin-care-services.html">Skin Care</a></li>
+                                <li><a href="medi-treatment-services.html">Medi Treatments</a></li>
+                                <li><a href="nails-mani-pedi.html">Nails</a></li>
+                                <li><a href="packages.html">Packages</a></li>
+                                <li><a href="hair-removal.html">Hair Removal</a></li>
+                                <li><a href="memberships.html">Memberships</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- APPOINTMENTS -->
+                        <li class="dropdown">
+                            <a href="appointments.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">APPOINTMENTS <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.demandforced3.com/www/etile_scheduler_popup.jsp?d3cp_exid=changessalon&d3cp_source=My%20Website">Request an Appointment</a></li>
+                                <li><a href="https://bookchangessalon.com/onlinebooking/">VIP Online Booking</a></li>
+                                <li><a href="vip-points.html">VIP Points Program</a></li>
+                                <li><a href="before-your-appointment.html">Before Your Appointment</a></li>
+                                <li><a href="frequently-asked-questions.html">FAQ</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- ABOUT -->
+                        <li class="dropdown">
+                            <a href="about-us.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">ABOUT <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="memberships.html">Memberships</a></li>
+                                <li><a href="specials.html">Specials</a></li>
+                                <li><a href="team.html">Our Team</a></li>
+                                <li><a href="careers.html">Careers</a></li>
+                                <li><a href="http://saas.shopsite.com/chan13/">Gift Certificates</a></li>
+                                <li><a href="packages.html">Packages</a></li>
+                                <li><a href="events.html">Events</a></li>
+                                <li><a href="group-events.html">Group Events</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- STORE -->
+                        <li><a href="http://saas.shopsite.com/chan13/">STORE</a></li>
+
+                        <!-- BLOG -->
+                        <li><a href="https://changessalon.wordpress.com">BLOG</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+
+        <!-- page contents -->
+        <section id="index-carousel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div id="carousel-example-generic" class="carousel slide img-responsive" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="images/walnut-creek-salon-spa.jpg" alt="Walnut Creek Salon Spa">
+                                </div>
+                                <div class="item">
+                                    <img src="images/changes-salon-lounge-spa.jpg" alt="Changes Salon Lounge Spa">
+                                </div>
+                                <div class="item">
+                                    <img src="images/spa-relaxation.jpg" alt="Spa Relaxation">
+                                </div>
+                                <div class="item">
+                                    <img src="images/changes-salon-garden.jpg" alt="Changes Salon Garden">
+                                </div>
+                                <div class="item">
+                                    <img src="images/salon-treatment-waxing.jpg" alt="Salon Treatment Waxing">
+                                </div>
+                                <div class="item">
+                                    <img src="images/changes-salon-massage.jpg" alt="Changse Salon Massage">
+                                </div>
+                                <div class="item">
+                                    <img src="images/changes-waxing-facial.jpg" alt="Changes Waxing Facial">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="wcpremiere">
+            <div class="container">
+                <div class="row">
+                    <!-- welcome message -->
+                    <div class="col-xs-12 col-lg-12">
+                        <h1 class="font-30 text-center">WALNUT CREEK'S PREMIERE SALON &amp; DAY SPA</h1>
+                        <p>Changes Salon and Day Spa is a unique venue to relax, de-stress and get gorgeous.  At Changes, we are dedicated to providing the most innovative beauty and wellness services in a beautiful and relaxing environment. With 18 hair stations, 11 treatment rooms, a semi-private pedicure room with a 16 foot water wall, Aqua Terra relaxation room, men’s and women’s locker rooms with steam lounges and 60 talented team members we will meet all your salon and spa needs.   Centrally located at the corner of Lincoln and N. Broadway in Downtown Walnut Creek, visit us and find out why Changes has been voted The Best of The East Bay over 30 times.</p>
+                    </div><!-- /welcome -->
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </section>
+
+        <section id="serviceimg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 image first">
+                        <a href="salon-services.html"><h2>Salon<br>Services</h2></a>
+                    </div>
+                    <div class="col-md-4 image second">
+                        <a href="spa-services.html"><h2>Spa<br>Services</h2></a>
+                    </div>
+                    <div class="col-md-4 image third">
+                        <a href="http://saas.shopsite.com/chan13/"><h2>Shop /<br>Gift Cards</h2></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Google Maps | Inside Store -->
+        <section class="space-bottom-40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2>360 View of Changes Salon</h2>
+                    </div>
+                    <div class="col-xs-12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1455494383746!6m8!1m7!1sqAceqRwv9EwAAAQvOfp7Wg!2m2!1d37.90057447706362!2d-122.0604884418538!3f144.56623210909416!4f2.171666262307525!5f0.7820865974627469" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen></iframe>
+                    </div>
+                </div><!-- /row -->
+            </div>
+        </section>
+
+        <section id="fromourblog">
+            <div class="container">
+                <div class="row">
+                    <div class="firstcol col-md-9">
+                        <h2 class="blog-heading">From Our Blog</h2>
+
+                        <!-- start feedwind code -->
+                        <script type="text/javascript">
+                            document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');
+                        </script>
+                        <script type="text/javascript">
+                            (function() {
+                                var params = {
+                                    rssmikle_url: "https://changessalon.wordpress.com/feed/",
+                                    rssmikle_frame_width: "100%",
+                                    rssmikle_frame_height: "365",
+                                    frame_height_by_article: "2",
+                                    rssmikle_target: "_blank",
+                                    rssmikle_font: "Arial, Helvetica, sans-serif",
+                                    rssmikle_font_size: "20",
+                                    rssmikle_border: "on",
+                                    responsive: "on",
+                                    rssmikle_css_url: "",
+                                    text_align: "left",
+                                    text_align2: "left",
+                                    corner: "off",
+                                    scrollbar: "on",
+                                    autoscroll: "on",
+                                    scrolldirection: "up",
+                                    scrollstep: "5",
+                                    mcspeed: "20",
+                                    sort: "Off",
+                                    rssmikle_title: "off",
+                                    rssmikle_title_sentence: "Changes Salon & Day Spa",
+                                    rssmikle_title_link: "",
+                                    rssmikle_title_bgcolor: "#000000",
+                                    rssmikle_title_color: "#FFFFFF",
+                                    rssmikle_title_bgimage: "",
+                                    rssmikle_item_bgcolor: "#FFFFFF",
+                                    rssmikle_item_bgimage: "",
+                                    rssmikle_item_title_length: "55",
+                                    rssmikle_item_title_color: "#000000",
+                                    rssmikle_item_border_bottom: "on",
+                                    rssmikle_item_description: "on",
+                                    item_link: "off",
+                                    rssmikle_item_description_length: "150",
+                                    rssmikle_item_description_color: "#666666",
+                                    rssmikle_item_date: "gl1",
+                                    rssmikle_timezone: "Etc/GMT",
+                                    datetime_format: "%b %e, %Y %l:%M %p",
+                                    item_description_style: "text+tn",
+                                    item_thumbnail: "full",
+                                    item_thumbnail_selection: "auto",
+                                    article_num: "10",
+                                    rssmikle_item_podcast: "off",
+                                    keyword_inc: "",
+                                    keyword_exc: ""
+                                };
+                                feedwind_show_widget_iframe(params);
+                            })();
+                        </script>
+                        <div style="font-size:10px; text-align:center; width:845px;"><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a>
+                            <!--Please display the above link in your web page according to Terms of Service.-->
+                        </div>
+                        <!-- end feedwind code -->
+                    </div>
+                    <div class="secondcol col-md-3">
+                        <div>
+                            <h3>Latest on Instagram</h3>
+                            <!-- SnapWidget -->
+                            <iframe src="https://snapwidget.com/embed/187200" class="snapwidget-widget snapwidget-iframe" allowTransparency="true" frameborder="0" scrolling="no"></iframe>
+                            <button><a href="https://instagram.com/changeswc/">View All Instagram</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- include | footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <!-- main left side -->
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <p>
+                                    <strong>Address</strong>
+                                </p>
+                            </div>
+                            <div class="col-md-9">
+                                <p>Changes Salon &amp; Day Spa
+                                    <a class="text-white" href="https://www.google.com/maps/place/Changes+Salon+%26+Day+Spa,+Inc./@37.9004142,-122.062696,17z/data=!3m1!4b1!4m2!3m1!1s0x808561c004540a81:0x6939f68cdf804d95">
+                                        <br /> 1475 North Broadway
+                                        <br /> Walnut Creek, CA 94596
+                                        <br />
+                                        <hr />
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- mail -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <p>
+                                    <strong>Mail</strong>
+                                </p>
+                            </div>
+                            <div class="col-md-9">
+                                <p><a class="text-white" href="mailto:info@changessalon.com">info@changessalon.com</a>
+                                    <br />
+                                    <hr />
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- phone -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <p>
+                                    <strong>Phone</strong>
+                                </p>
+                            </div>
+                            <div class="col-md-9">
+                                <p><a class="text-white" href="tel:19259471814">925-947-1814</a></p>
+                            </div>
+                        </div>
+                    </div><!-- /col-md-4 -->
+                    <div class="col-md-4">
+                        <p>
+                            <strong>Hours</strong>
+                            <br /> Sunday 9:00 am - 5:30 pm
+                            <br /> Monday 9:00 - 3:00 pm
+                            <br /> Tuesday - Thursday 9:00 am - 9:30 pm
+                            <br /> Friday and Saturday 8:00 am - 6:30 pm
+                        </p>
+                    </div><!-- /col-md-4 -->
+                    <div class="col-md-4">
+                        <form name="ccoptin" action="http://ccprod.roving.com/roving/d.jsp" target="_blank" method="post">
+                            <div><a class="btn btn-default button-black" href="https://www.demandforced3.com/www/etile_scheduler_popup.jsp?d3cp_exid=changessalon&d3cp_source=My%20Website" target="_blank">Schedule an Appointment</a></div>
+                            <div class="space-top-10"><a class="btn btn-default button-black" href="">Join Our Mailing List</a></div>
+                            <div class="space-top-10">
+                                <input type="email" class="form-control" name="ea" />
+                                <input type=hidden name="m" value="1011215259327">
+                                <input type=hidden name="p" value="oi">
+                            </div>
+                            <div class="space-top-10"><input class="btn btn-danger" type="submit" name="Submit" value="Go"></div>
+                        </form>
+                    </div><!-- /col-md-4 -->
+                </div><!-- /row -->
+            </div>
+        </footer>
+
+        <section id="subfooter">
+            <div class="container">
+                <div class="row">
+                    <address class="col-md-4">
+                        <p>&copy; 2015 Changes Salon &amp; Day Spa All Rights Reserved</p>
+                    </address>
+                    <div class="col-md-4">
+                        <a href="http://50.255.49.145/login.asp">
+                            <p>Employee Login</p>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <p>Web Development by <a href="http://www.leemtek.com" target="_blank">LeemTek</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- AngularJS -->
+        <script src="assets/bower_components/angular/angular.min.js"></script>
+        <script src="assets/bower_components/angular-animate/angular-animate.min.js"></script>
+
+        <!-- LeemTek JS -->
+        <script src="assets/js/leemtek.js"></script>
+    </body>
+
+</html>

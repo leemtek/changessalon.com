@@ -5,7 +5,10 @@
             "Premier Stylist",
             "Stylists",
             "Albums/Stylists/thumbs/Alejandra.jpg",
-            null
+            "I have been a hairstylist since 2004, since then I have trained with Wella, Bumble and Bumble, Kevin Murphy
+            and Prive. I am passionate about my education, and keeping up to date with all the new trends which is why I
+            continue to extend my education every chance I can. My favorite thing about being a stylist is hair coloring
+            and styling, because I love making my clients look and feel their best."
         ),
         array(
             "Ariana",
@@ -26,15 +29,25 @@
             color services but cutting is my passion. There is nothing more rewarding than transforming hair with an amazing
             cut. A close second is teaching styling techniques to create the perfect look.
             <br /><br />
-            I often think \"if I knew in high
-            school what I know now about styling hair,I could have looked really cute\"."
+            I often think \"if I knew in high school what I know now about styling hair,I could have looked really cute\"."
         ),
         array(
             "Claire",
             "Senior Stylist",
             "Stylists",
             "Albums/Stylists/thumbs/Claire.jpg",
-            "Cosmetologist, colorist, cutting specialist!"
+            "I have been a stylist for 5 years and with Changes since 2014. I love making people happy and comfortable in
+            their own skin. I am fun, friendly and relaxed. My first specialty is haircuts, weather you want something short,
+            funky or need help growing it out I will be there for you every step of the way. If you love your length I will
+            help you preserve it and keep it healthy. I will make sure whatever you need is suitable for you and your lifestyle
+            so you get the most out of whatever style you are looking for.<br /><br />
+
+            My other love is color. I particularly love the balayge (or hand painted) technique, its a beautiful, easy to wear
+            approach to color and highlights. I also love whenever I have the opportunity to do fantasy color (unnatural colors
+            ex: pink) and get to color outside the lines.<br /><br />
+
+            I'll make sure you know how to keep up and care for any look we create together so you can always look and feel your
+            best. I cant wait to meet you!"
         ),
         array(
             "Jasmin",
@@ -168,7 +181,7 @@
             "Esthetician III<br />Educator/Department Trainer",
             "Estheticians",
             "Albums/Estheticians/thumbs/Cat.jpg",
-            null
+            "My name is Cat & I have  been at Changes for almost 18 years. I really passionate about skincare. I take over 40 hours of advanced education each year to keep up with the latest technology and ingredients. I am also a certified natural health professional.  I feel that diet & health play a very important role in the outcome of our skin. I specialize in acne, anti-aging & helping each individual look their best & feel confident in the way their skin looks. I believe almost every person can use a peel (we have light anti-oxidant treatments to 40% retinol peels) which can take your skin to the next level. Investing in your skin is something that will last you a lifetime. <br /><br />My love & passion for skin care makes my job such an enjoyable experience everyday I work. I take pride in every treatment I perform from waxing to facials to peels!  I want everyone to have a relaxing & enjoyable experience & to love being at Changes as much as I do."
         ),
         array(
             "Dominique",
@@ -182,28 +195,21 @@
             "Esthetician",
             "Estheticians",
             "Albums/Estheticians/thumbs/Kristin.jpg",
-            null
+            "I have been in the skincare industry since 2009. I enjoy making my clients feel good inside and out. I specialize in speed waxing and making the process as painless as possible."
         ),
         array(
             "Krys",
             "Esthetician II",
             "Estheticians",
             "Albums/Estheticians/thumbs/Krys.jpg",
-            null
+            "I have been an esthetician for 17 years and I still love doing relaxing result driven facials, peels, waxing (Except Brazilian's), makeup, eyelash extensions and there is always something new to learn. The best part of being an esthetician is when my client leaves here relaxed and feeling beautiful; Priceless.<br /><br />Looking forward to seeing you!"
         ),
         array(
             "Lupe",
             "Esthetician II",
             "Estheticians",
             "Albums/Estheticians/thumbs/Lupe.jpg",
-            null
-        ),
-        array(
-            "Nikki",
-            "Esthetician & Manicurist",
-            "Estheticians",
-            "Albums/Estheticians/thumbs/Nikki.jpg",
-            "I received my cosmetology license at 2004 from Solano Community, where I found my passion for skin care.  I have now been practicing for twelve years.  I love making my clients feel good inside and out, so they can keep up their natural shine. I also do nails part-time at Changes."
+            "Lupe started off at Changes as a member of the guest service team at the young age of 20.  During her time as a member of the guest service team she realized she most enjoyed helping people feel their best, that along with her own skincare concerns helped her decide to go to school to become an Estehtician.<br /><br />She started working in our skincare department 16 years ago, and continues to grows her passion for taking care of others more and more each day.  Along with being a Day Maker in our skincare department she is also a mother of 4 beautiful children and a loving wife of 15 years."
         ),
         array(
             "Paulette",
@@ -216,7 +222,7 @@
             "Lexie",
             "Esthetician I<br />Educator/Department Trainer",
             "Estheticians",
-            "Albums/Estheticians/thumbs/lexie.jpg",
+            "Albums/Estheticians/thumbs/Lexie.jpg",
             "\"She believed she could, so she did\" - R.S Grey.<br /><br />This is my favorite quote and the words I live by. I love seeing the positive changes that happen when my guests are receiving the correct treatments and using the right skin care products. <br /><br />I have extensive training in waxing especially creating the perfect brow design. I specialize in lash extensions and make-up."
         ),
         array(
@@ -248,14 +254,14 @@
             "Massage Therapist",
             "Therapists",
             "Albums/Massage/thumbs/Jordyn.jpg",
-            null
+            "Wanting to help others is a huge passion I've always had. I'm grateful I'm able to do that through massage. I love bringing positive energy to those clients in need. I'm trained in many modalities such as Prenatal, Deep Tissue, Aromatherapy and Stone Massage. I'm always learning new ways to customize the client's massage with each session."
         ),
         array(
             "Marissa",
             "Massage Therapist",
             "Therapists",
             "Albums/Massage/thumbs/Marissa.jpg",
-            null
+            "Being a massage therapist gives me the opportunity to give back through service and to deepen my own personal development.<br /><br />My work combines a full-hearted presence, nurturing touch, integrating various techniques into one continuous flow and detailed attention to the whole body. Providing my guests a state of deep relaxation and healing.<br /><br />I am grateful for the gift of connecting with people and helping them to heal themselves."
         ),
         array(
             "Natalia",
@@ -394,7 +400,7 @@
             "Joanna",
             "Manicurist I",
             "Manicurists",
-            "Albums/logo-team-bio-nophoto.jpg",
+            "Albums/Manicurists/thumbs/Joanna.jpg",
             "After many years in Customer Service & Office Admin I decided to pursue my dream of becoming a Licensed
             Nail Tech. I attended Blake Austin Beauty Academy in Vacaville, CA completing 600 Hours of Spa Nail Tech
             training and received my Manicurist license from the California State Board of Cosmetology in March 2016. I
@@ -409,17 +415,10 @@
             null
         ),
         array(
-            "Ankita",
-            "Massage Therapist",
-            "Therapists",
-            "Albums/Massage/thumbs/Ankita.jpg",
-            null
-        ),
-        array(
             "Kristy",
             "Massage Therapist",
             "Therapists",
-            "Albums/logo-team-bio-nophoto.jpg",
+            "Albums/Massage/thumbs/Kristy.png",
             "Kristy graduated from the National Holistic Institute in 2013. With different modalities such as Swedish,
             Deep Tissue, Prenatal, and Aromatherapy she can alleviate tension, headaches and improve the body's range
             of motion. She customizes each session to her clients needs in order for their bodies to recover, relax and
@@ -440,6 +439,21 @@
             "Support",
             "Albums/logo-team-bio-nophoto.jpg",
             null
+        ),
+        array(
+            "America",
+            "Massage Therapist",
+            "Therapists",
+            "Albums/logo-team-bio-nophoto.jpg",
+            "I have always had a passion for helping others through health and wellness. Being a massage therapist lets me do just that. I have had the pleasure of working in varies positions in the health and wellness industry for over 7 years."
+        ),
+        array(
+            "Kara",
+            "Signature Stylist",
+            "Stylists",
+            "Albums/Stylists/thumbs/Kara.jpg",
+            "I have been a hairstylist for 4 years, I have always had a passion for hair, I began my education at 16
+            years old and haven't looked back once, I enjoy creating a unique masterpiece on each client!"
         ),
     ); // $employees
     shuffle($employees);
