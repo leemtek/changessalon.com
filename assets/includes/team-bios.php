@@ -71,7 +71,7 @@
             "Signature Stylist",
             "Stylists",
             "Albums/Stylists/thumbs/Lauren.jpg",
-            "Curly hair is my specialty! I have been doing hair since 2005 and I absolutely love to make people feel fabulous about the way they look when they leave the salon."
+            null
         ),
         array(
             "Leslie",
@@ -432,13 +432,6 @@
             "Support",
             "Albums/logo-team-bio-nophoto.jpg",
             null
-        ),
-        array(
-            "America",
-            "Massage Therapist",
-            "Therapists",
-            "Albums/logo-team-bio-nophoto.jpg",
-            "I have always had a passion for helping others through health and wellness. Being a massage therapist lets me do just that. I have had the pleasure of working in varies positions in the health and wellness industry for over 7 years."
         ),
         array(
             "Kara",
