@@ -158,13 +158,6 @@
             beautiful nails."
         ),
         array(
-            "Lily",
-            "Manicurist I",
-            "Manicurists",
-            "Albums/Manicurists/thumbs/Lily.jpg",
-            null
-        ),
-        array(
             "Tamara",
             "Manicurist II<br />Educator/Department Trainer",
             "Manicurists",
