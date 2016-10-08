@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="changessalonApp" ng-controller="includesController">
+<html lang="en" ng-app="changessalonApp">
 
     <head>
         <meta charset="utf-8">
@@ -213,7 +213,7 @@
         </section>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/assets/bower_components/jQuery/dist/jquery.min.js"></script>
 
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -250,7 +250,14 @@
 
         <!-- LeemTek JS -->
         <script src="assets/js/leemtek.js"></script>
-        <!-- <script src="assets/js/ng-controllers/team-bios.js"></script> -->
+        <script>
+            (function(angular) {
+                'use strict';
+                angular.module('changessalonApp', ['ngAnimate'])
+                    
+                ;
+            })(window.angular);
+        </script>
     </body>
 
 </html>

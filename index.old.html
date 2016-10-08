@@ -52,11 +52,9 @@
     </head>
 
     <body>
-        <!-- Google Analytics -->
-        <div ng-include="assets/includes/google-analytics.html"></div>
 
-        <!-- Promo Modal -->
-        <div ng-include="'assets/includes/20160701-promo-modal.html'"></div>
+        <!-- Google Analytics -->
+        <div ng-include="'assets/includes/google-analytics.html'"></div>
 
         <!-- include | header -->
         <header>
@@ -439,6 +437,14 @@
         <!-- AngularJS -->
         <script src="assets/bower_components/angular/angular.min.js"></script>
         <script src="assets/bower_components/angular-animate/angular-animate.min.js"></script>
+        <script>
+            (function(angular) {
+                'use strict';
+                angular.module('changessalonApp', ['ngAnimate'])
+                    // Something here in the future.
+                ;
+            })(window.angular);
+        </script>
 
         <!-- LeemTek JS -->
         <script src="assets/js/leemtek.js"></script>

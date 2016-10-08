@@ -174,14 +174,27 @@
             "Esthetician III<br />Educator/Department Trainer",
             "Estheticians",
             "Albums/Estheticians/thumbs/Cat.jpg",
-            "My name is Cat & I have  been at Changes for almost 18 years. I really passionate about skincare. I take over 40 hours of advanced education each year to keep up with the latest technology and ingredients. I am also a certified natural health professional.  I feel that diet & health play a very important role in the outcome of our skin. I specialize in acne, anti-aging & helping each individual look their best & feel confident in the way their skin looks. I believe almost every person can use a peel (we have light anti-oxidant treatments to 40% retinol peels) which can take your skin to the next level. Investing in your skin is something that will last you a lifetime. <br /><br />My love & passion for skin care makes my job such an enjoyable experience everyday I work. I take pride in every treatment I perform from waxing to facials to peels!  I want everyone to have a relaxing & enjoyable experience & to love being at Changes as much as I do."
+            "My name is Cat & I have  been at Changes for almost 18 years. I really passionate about skincare. I take 
+                over 40 hours of advanced education each year to keep up with the latest technology and ingredients. I 
+                am also a certified natural health professional.  I feel that diet & health play a very important role 
+                in the outcome of our skin. I specialize in acne, anti-aging & helping each individual look their best & 
+                feel confident in the way their skin looks. I believe almost every person can use a peel (we have light 
+                anti-oxidant treatments to 40% retinol peels) which can take your skin to the next level. Investing in 
+                your skin is something that will last you a lifetime. <br /><br />My love & passion for skin care makes 
+                my job such an enjoyable experience everyday I work. I take pride in every treatment I perform from 
+                waxing to facials to peels!  I want everyone to have a relaxing & enjoyable experience & to love 
+                being at Changes as much as I do."
         ),
         array(
             "Dominique",
             "Esthetician",
             "Estheticians",
             "Albums/Estheticians/thumbs/Dominique.jpg",
-            null
+            "At an early age I was always fascinated with skincare and makeup and loved seeing the transformation. I 
+                obtained my license in 2009 and continue to work on education as the industry is forever changing. My 
+                love for skin care makes my job an enjoyable experience and I strive to ensure the connection with my 
+                clients, establish trust and create attention for their individual needs. I'm grateful that I'm able to 
+                be apart of team changes and to make a difference in the lives of my clients."
         ),
         array(
             "Kristin",
@@ -229,6 +242,13 @@
             truly loving the skin you're in!"
         ),
         array(
+            "Charles",
+            "Esthetician I",
+            "Estheticians",
+            "Albums/Estheticians/thumbs/Charles.jpg",
+            null
+        ),
+        array(
             "Alexandra",
             "Massage Therapist",
             "Therapists",
@@ -240,7 +260,7 @@
             "Massage Therapist",
             "Therapists",
             "Albums/Massage/thumbs/Anthony.jpg",
-            null
+            "Anthony has been in the Massage Industry since 2008. He decided to be a part of the Spa Industry because he wanted to find a way to help people de-stress in this fast paced world and he always had an interest in anatomy. Anthony’s favorite service to perform on his clients is our Swedish massage with a Hot Stone add on because the Hot stones will further release any tension in the muscles and help his client into a more relaxed state. During Anthony’s spare time he loves to create digital art and animation!"
         ),
         array(
             "Jordyn",
@@ -401,11 +421,23 @@
             experience and healthy, beautiful nails."
         ),
         array(
+            "Jenny",
+            "Manicurist I",
+            "Manicurists",
+            "Albums/Manicurists/thumbs/Jenny.jpg",
+            null
+        ),
+        array(
             "Angela",
             "Manicurist III",
             "Manicurists",
             "Albums/Manicurists/thumbs/Angela.jpg",
-            null
+            "Angelas been a manicurist since 1998, and has been with Changes since 2000. Angela got into this industry because 
+            she likes to meet people and be a DayMaker in this hectic world. One of her favorite things about her job at Changes 
+            are the relationships she has made with not only her coworkers but all her wonderufl clients.<br />
+            <br />
+            During Angela's down time she loves to stay active with Kickboxing classes, Sunday moring church services, spending 
+            time with her family watching Raider or A's Games."
         ),
         array(
             "Kristy",

@@ -1,0 +1,18 @@
+
+/* ==================================================================
+    Toggable Tabs
+================================================================== */
+/* Margin fix for toggable tab. */
+#job-application {
+    margin: 20px;
+}
+
+/* Adjust tab contents. */
+#job-application form > div > .tab-content > .tab-pane {
+    margin: 20px;
+}
+
+.vertical-align-middle {
+    display: flex; 
+    align-items: center;
+}

@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <a href="index.html"><img src="assets/img/logo.png"></a>
+    <a href="/"><img src="/assets/img/logo.png"></a>
 
     <div id="sminfo">
         <a href="salon-services.html">Salon</a>&nbsp; |&nbsp; <a href="spa-services.html">Spa</a> &nbsp;| &nbsp; <a href="store.html">Shop / Gift Cards</a>
@@ -40,15 +40,15 @@
                 <li class="dropdown">
                     <a href="salon-services.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">SALON <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="hair.html">Hair Services</a></li>
-                        <li><a href="wedding-special-event.html">Weddings &amp; Social Events</a></li>
-                        <li><a href="nails-mani-pedi.html">Nails</a></li>
-                        <li><a href="makeup-services.html">Makeup</a></li>
-                        <li><a href="hair-removal.html">Hair Removal</a></li>
-                        <li><a href="mens-salon-and-spa-services.html">Especially For Men</a></li>
-                        <li><a href="packages.html">Packages</a></li>
-                        <li><a href="vip-points.html">VIP Program</a></li>
-                        <li><a href="group-events.html">Group Events</a></li>
+                        <li><a href="/hair.html">Hair Services</a></li>
+                        <li><a href="/wedding-special-event.html">Weddings &amp; Social Events</a></li>
+                        <li><a href="/nails-mani-pedi.html">Nails</a></li>
+                        <li><a href="/makeup-services.html">Makeup</a></li>
+                        <li><a href="/hair-removal.html">Hair Removal</a></li>
+                        <li><a href="/mens-salon-and-spa-services.html">Especially For Men</a></li>
+                        <li><a href="/packages.html">Packages</a></li>
+                        <li><a href="/vip-points.html">VIP Program</a></li>
+                        <li><a href="/group-events.html">Group Events</a></li>
                     </ul>
                 </li>
 
@@ -56,14 +56,14 @@
                 <li class="dropdown">
                     <a href="spa-services.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">SPA <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="massage.html">Massage</a></li>
-                        <li><a href="spa-body-therapies.html">Spa Body Therapies</a></li>
-                        <li><a href="skin-care-services.html">Skin Care</a></li>
-                        <li><a href="medi-treatment-services.html">Medi Treatments</a></li>
-                        <li><a href="nails-mani-pedi.html">Nails</a></li>
-                        <li><a href="packages.html">Packages</a></li>
-                        <li><a href="hair-removal.html">Hair Removal</a></li>
-                        <li><a href="memberships.html">Memberships</a></li>
+                        <li><a href="/massage.html">Massage</a></li>
+                        <li><a href="/spa-body-therapies.html">Spa Body Therapies</a></li>
+                        <li><a href="/skin-care-services.html">Skin Care</a></li>
+                        <li><a href="/medi-treatment-services.html">Medi Treatments</a></li>
+                        <li><a href="/nails-mani-pedi.html">Nails</a></li>
+                        <li><a href="/packages.html">Packages</a></li>
+                        <li><a href="/hair-removal.html">Hair Removal</a></li>
+                        <li><a href="/memberships.html">Memberships</a></li>
                     </ul>
                 </li>
 
@@ -73,9 +73,9 @@
                     <ul class="dropdown-menu">
                         <li><a href="https://www.demandforced3.com/www/etile_scheduler_popup.jsp?d3cp_exid=changessalon&d3cp_source=My%20Website">Request an Appointment</a></li>
                         <li><a href="https://bookchangessalon.com/onlinebooking2/#/" target="_blank">Online Booking</a></li>
-                        <li><a href="vip-points.html">VIP Points Program</a></li>
-                        <li><a href="before-your-appointment.html">Before Your Appointment</a></li>
-                        <li><a href="frequently-asked-questions.html">FAQ</a></li>
+                        <li><a href="/vip-points.html">VIP Points Program</a></li>
+                        <li><a href="/before-your-appointment.html">Before Your Appointment</a></li>
+                        <li><a href="/frequently-asked-questions.html">FAQ</a></li>
                     </ul>
                 </li>
 
@@ -83,15 +83,15 @@
                 <li class="dropdown">
                     <a href="about-us.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">ABOUT <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="memberships.html">Memberships</a></li>
-                        <li><a href="specials.html">Specials</a></li>
-                        <li><a href="team.html">Our Team</a></li>
-                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="/memberships.html">Memberships</a></li>
+                        <li><a href="/specials.html">Specials</a></li>
+                        <li><a href="/team.html">Our Team</a></li>
+                        <li><a href="/careers.html">Careers</a></li>
                         <li><a href="http://saas.shopsite.com/chan13/">Gift Certificates</a></li>
-                        <li><a href="packages.html">Packages</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="group-events.html">Group Events</a></li>
-                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="/packages.html">Packages</a></li>
+                        <li><a href="/events.html">Events</a></li>
+                        <li><a href="/group-events.html">Group Events</a></li>
+                        <li><a href="/contact-us.html">Contact Us</a></li>
                     </ul>
                 </li>
 
