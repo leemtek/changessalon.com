@@ -40,7 +40,7 @@
         <?php include_once("./assets/includes/main.body.header.php"); ?>
 
         <!-- Promo Modal -->
-        <div ng-include="'assets/includes/20160701-promo-modal.html'"></div>
+        <?php include_once("assets/includes/20160701-promo-modal.html"); ?>
 
         <!-- page contents -->
         <section id="index-carousel">
@@ -176,6 +176,11 @@
                 angular.module("changessalonApp", [])
 
                 ; // angular.module("changessalonApp")
+
+                // Run on startup.
+                $(window).load(function(){
+                    $('#promoModal').modal('show');
+                });
             })(); // function()
         </script>
 

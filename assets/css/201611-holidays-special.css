@@ -1,0 +1,84 @@
+/* ------------------------------------------
+    November / December 2016 Specials
+------------------------------------------ */
+
+#holidays-special #first {
+    background: url("/assets/img/promos/201611-holidays-special.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*height: 495px;*/
+}
+
+#holidays-special #first .col-md-4 {
+    margin: 30px;
+    max-width: 400px;
+}
+
+#holidays-special #header-info {
+    background-color: #DD514A;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#holidays-special #header-info h2 {
+    margin: 0px;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#holidays-special #first #header-info h2 {
+    font-size: 18px!important;
+}
+
+#holidays-special #body-info {
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#holidays-special #body-info p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#holidays-special #body-info .btn {
+    padding: 18px 15px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+#holidays-special #second {
+    background: url("/assets/img/promos/2016-valentines-hearts.jpg") repeat center center;
+}
+
+#holidays-special #second #order-online {
+    margin: 30px 0;
+}
+
+#holidays-special #second #new-year {
+    margin: 19px;
+}
+
+#holidays-special #second #header-info {
+    margin-top: 30px;
+}
+
+#holidays-special #second #body-info {
+    margin-bottom: 30px;
+}
+
+@media(max-width: 991px) {
+    #holidays-special #first {
+        padding-top: 1px
+    }
+}

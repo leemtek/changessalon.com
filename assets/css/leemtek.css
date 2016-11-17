@@ -8,6 +8,7 @@ body {
 
 /* fonts */
 .text-bold { font-weight: bold; }
+.text-italic { font-style: italic; }
 .text-red { color: #d9534f; }
 .text-white { color: white; }
 .font-30 { font-size: 30px; }
@@ -22,6 +23,7 @@ body {
 .space-top-30 { margin-top: 30px; }
 .space-top-40 { margin-top: 40px; }
 .space-bottom-10 { margin-bottom: 10px; }
+.space-bottom-20 { margin-bottom: 20px; }
 .space-bottom-30 { margin-bottom: 30px; }
 .space-bottom-40 { margin-bottom: 40px; }
 

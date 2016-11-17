@@ -1,5 +1,5 @@
 <!-- Google Analytics -->
-<?php include_once("assets/includes/google-analytics.html"); ?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'] . "/assets/includes/google-analytics.html"); ?>
 
 <!-- include | header -->
 <header>

@@ -30,4 +30,4 @@
 <link href="/assets/css/leemtek.css" rel="stylesheet">
 
 <!-- Facebook Pixels -->
-<?php include_once("./assets/includes/facebook-pixels.html"); ?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'] . "/assets/includes/facebook-pixels.html"); ?>
