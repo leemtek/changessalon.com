@@ -44,20 +44,19 @@
                     <div class="col-xs-12 col-md-7">
                         <div class="panel panel-danger">
                             <div class="panel-heading">
-                                <div class="text-center text-bold" style="font-size: 18px;">Beauty &amp; Relaxation</div>
-                                <div class="text-center" style="font-size: small;">for you and yours this Holiday Seasons!</div>
+                                <div class="text-center text-bold" style="font-size: 18px;">Holiday Open House</div>
                             </div>
                             <div class="panel-body">
-                                <h2 class="text-bold" style="font-size: 18px;">Gift Card Specials</h2>
-                                <div class="text-italic">Treat the entire family, your loyal team, or just plan ahead.</div>
+                                <div class="text-italic space-bottom-20 text-red">Join us November 29, 5 to 8 pm, for an evening of celebration, stress-free savings &amp; sweet treats. One Night Only:</div>
 
                                 <ul>
-                                    <li>Purchase a Gift card of $160 or more and receive a $20 Spa Voucher.*</li>
-                                    <li>Purchase a Gift Card over $300 and receive an additional $20 Service Voucher.*</li>
-                                    <li>Purchase any combination totaling $1000 in Gift Cards and receive a FREE $100 Gift Card, plus 2 vouchers. <small>*Limit 2 vouchers per household.</small></li>
+                                    <li>10% off all product purchases of $160 or more.</li>
+                                    <li>Pick Your Gift: For any $160 or more Gift Card purchase choose either 10% off or a $20 voucher.</li>
+                                    <li>Over $500 in prizes!</li>
                                 </ul>
+                                <p>All guests at the Open House can enter to win. Plus, increase your chance with extra entries for gift card and product purchases.</p>
+                                <p>RSVP to <a href="mailto:rsvp@changessalon.com">rsvp@changessalon.com</a> and receive 200 VIP points when you attend.</p>
 
-                                <div class="text-center"><a class="btn btn-danger" href="http://saas.shopsite.com/chan13/" target="_blank">Order Online</a></div>
                             </div>
                         </div>
                     </div><!-- /col -->
@@ -86,19 +85,20 @@
                     <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
                         <div class="panel panel-danger">
                             <div class="panel-heading">
-                                <div class="text-center text-bold" style="font-size: 18px;">Holiday Open House</div>
+                                <div class="text-center text-bold" style="font-size: 18px;">Beauty &amp; Relaxation</div>
+                                <div class="text-center" style="font-size: small;">for you and yours this Holiday Seasons!</div>
                             </div>
                             <div class="panel-body">
-                                <div class="text-italic space-bottom-20 text-red">Join us November 29, 5 to 8 pm, for an evening of celebration, stress-free savings &amp; sweet treats. One Night Only:</div>
+                                <h2 class="text-bold" style="font-size: 18px;">Gift Card Specials</h2>
+                                <div class="text-italic">Treat the entire family, your loyal team, or just plan ahead.</div>
 
                                 <ul>
-                                    <li>10% off all product purchases of $160 or more.</li>
-                                    <li>Pick Your Gift: For any $160 or more Gift Card purchase choose either 10% off or a $20 voucher.</li>
-                                    <li>Over $500 in prizes!</li>
+                                    <li>Purchase a Gift card of $160 or more and receive a $20 Spa Voucher.*</li>
+                                    <li>Purchase a Gift Card over $300 and receive an additional $20 Service Voucher.*</li>
+                                    <li>Purchase any combination totaling $1000 in Gift Cards and receive a FREE $100 Gift Card, plus 2 vouchers. <small>*Limit 2 vouchers per household.</small></li>
                                 </ul>
-                                <p>All guests at the Open House can enter to win. Plus, increase your chance with extra entries for gift card and product purchases.</p>
-                                <p>RSVP to <a href="mailto:rsvp@changessalon.com">rsvp@changessalon.com</a> and receive 200 VIP points when you attend.</p>
 
+                                <div class="text-center"><a class="btn btn-danger" href="http://saas.shopsite.com/chan13/" target="_blank">Order Online</a></div>
                             </div>
                         </div>
                     </div><!-- /col -->

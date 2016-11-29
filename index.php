@@ -39,9 +39,6 @@
         <!-- Main Header Configuration -->
         <?php include_once("./assets/includes/main.body.header.php"); ?>
 
-        <!-- Promo Modal -->
-        <?php include_once("assets/includes/20160701-promo-modal.html"); ?>
-
         <!-- page contents -->
         <section id="index-carousel">
             <div class="container">
@@ -99,10 +96,26 @@
             <div class="container">
                 <div class="row">
                     <!-- welcome message -->
-                    <div class="col-xs-12 col-lg-12">
+                    <div class="col-xs-12 col-md-8">
                         <h1 class="font-30 text-center">WALNUT CREEK'S PREMIERE SALON &amp; DAY SPA</h1>
                         <p>Changes Salon and Day Spa is a unique venue to relax, de-stress and get gorgeous.  At Changes, we are dedicated to providing the most innovative beauty and wellness services in a beautiful and relaxing environment. With 18 hair stations, 11 treatment rooms, a semi-private pedicure room with a 16 foot water wall, Aqua Terra relaxation room, men’s and women’s locker rooms with steam lounges and 60 talented team members we will meet all your salon and spa needs.   Centrally located at the corner of Lincoln and N. Broadway in Downtown Walnut Creek, visit us and find out why Changes has been voted The Best of The East Bay over 30 times.</p>
                     </div><!-- /welcome -->
+
+                    <div class="col-xs-12 col-md-4">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-center text-bold">
+                                    <div>Holiday Open House</div>
+                                    <div>&amp; Gift Card Specials</div>
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <img src="/assets/img/promos/201611-holidays-text.jpg" class="space-bottom-10 img-responsive" />
+                                <p>Join us November 29, 5 to 8 pm, for an evening of celebration, stress-free savings &amp; sweet treats. One Night Only.</p>
+                                <div class="space-top-20 text-center"><a href="./specials/201611-holidays-special.php" class="btn btn-primary">More Info</a></div>
+                            </div>
+                        </div>
+                    </div>
                 </div><!-- /row -->
             </div><!-- /container -->
         </section>
@@ -179,7 +192,7 @@
 
                 // Run on startup.
                 $(window).load(function(){
-                    $('#promoModal').modal('show');
+                    // $('#promoModal').modal('show');
                 });
             })(); // function()
         </script>
