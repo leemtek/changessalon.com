@@ -105,13 +105,12 @@
                         <div class="panel panel-danger">
                             <div class="panel-heading">
                                 <h3 class="panel-title text-center text-bold">
-                                    <div>Holiday Open House</div>
-                                    <div>&amp; Gift Card Specials</div>
+                                    <div>Gift Card Specials</div>
                                 </h3>
                             </div>
                             <div class="panel-body">
                                 <img src="/assets/img/promos/201611-holidays-text.jpg" class="space-bottom-10 img-responsive" />
-                                <p>Join us November 29, 5 to 8 pm, for an evening of celebration, stress-free savings &amp; sweet treats. One Night Only.</p>
+                                <p>Treat the entire family, your loyal team, or just plan ahead.</p>
                                 <div class="space-top-20 text-center"><a href="./specials/201611-holidays-special.php" class="btn btn-primary">More Info</a></div>
                             </div>
                         </div>

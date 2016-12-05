@@ -41,28 +41,10 @@
         <div id="holidays-special" class="container">
             <section id="first">
                 <div class="row">
-                    <div class="col-xs-12 col-md-7">
-                        <div class="panel panel-danger">
-                            <div class="panel-heading">
-                                <div class="text-center text-bold" style="font-size: 18px;">Holiday Open House</div>
-                            </div>
-                            <div class="panel-body">
-                                <div class="text-italic space-bottom-20 text-red">Join us November 29, 5 to 8 pm, for an evening of celebration, stress-free savings &amp; sweet treats. One Night Only:</div>
-
-                                <ul>
-                                    <li>10% off all product purchases of $160 or more.</li>
-                                    <li>Pick Your Gift: For any $160 or more Gift Card purchase choose either 10% off or a $20 voucher.</li>
-                                    <li>Over $500 in prizes!</li>
-                                </ul>
-                                <p>All guests at the Open House can enter to win. Plus, increase your chance with extra entries for gift card and product purchases.</p>
-                                <p>RSVP to <a href="mailto:rsvp@changessalon.com">rsvp@changessalon.com</a> and receive 200 VIP points when you attend.</p>
-
-                            </div>
-                        </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+                        <img src="/assets/img/promos/201612-dec.jpg" class="img-responsive center-block" alt="Beauty and Relaxation" />
                     </div><!-- /col -->
-                </div><!-- /row -->
 
-                <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
                         <div class="panel panel-default">
                             <div class="panel-heading">
@@ -103,7 +85,6 @@
                         </div>
                     </div><!-- /col -->
 
-                    
                 </div><!-- /row -->
             </section>
         </div>

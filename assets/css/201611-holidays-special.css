@@ -3,11 +3,11 @@
 ------------------------------------------ */
 
 #holidays-special #first {
-    background: url("/assets/img/promos/201611-holidays-special.jpg") no-repeat center center;
+    /*background: url("/assets/img/promos/201611-holidays-special.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
     /*height: 495px;*/
 }
 
