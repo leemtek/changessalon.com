@@ -242,13 +242,6 @@
             truly loving the skin you're in!"
         ),
         array(
-            "Charles",
-            "Esthetician I",
-            "Estheticians",
-            "Albums/Estheticians/thumbs/Charles.jpg",
-            null
-        ),
-        array(
             "Alexandra",
             "Massage Therapist",
             "Therapists",
