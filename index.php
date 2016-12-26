@@ -96,25 +96,10 @@
             <div class="container">
                 <div class="row">
                     <!-- welcome message -->
-                    <div class="col-xs-12 col-md-8">
+                    <div class="col-lg-12">
                         <h1 class="font-30 text-center">WALNUT CREEK'S PREMIERE SALON &amp; DAY SPA</h1>
                         <p>Changes Salon and Day Spa is a unique venue to relax, de-stress and get gorgeous.  At Changes, we are dedicated to providing the most innovative beauty and wellness services in a beautiful and relaxing environment. With 18 hair stations, 11 treatment rooms, a semi-private pedicure room with a 16 foot water wall, Aqua Terra relaxation room, men’s and women’s locker rooms with steam lounges and 60 talented team members we will meet all your salon and spa needs.   Centrally located at the corner of Lincoln and N. Broadway in Downtown Walnut Creek, visit us and find out why Changes has been voted The Best of The East Bay over 30 times.</p>
                     </div><!-- /welcome -->
-
-                    <div class="col-xs-12 col-md-4">
-                        <div class="panel panel-danger">
-                            <div class="panel-heading">
-                                <h3 class="panel-title text-center text-bold">
-                                    <div>Gift Card Specials</div>
-                                </h3>
-                            </div>
-                            <div class="panel-body">
-                                <img src="/assets/img/promos/201611-holidays-text.jpg" class="space-bottom-10 img-responsive" />
-                                <p>Treat the entire family, your loyal team, or just plan ahead.</p>
-                                <div class="space-top-20 text-center"><a href="./specials/201611-holidays-special.php" class="btn btn-primary">More Info</a></div>
-                            </div>
-                        </div>
-                    </div>
                 </div><!-- /row -->
             </div><!-- /container -->
         </section>
