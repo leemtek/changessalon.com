@@ -19,7 +19,10 @@
     <a href="/"><img src="/assets/img/logo.png"></a>
 
     <div id="sminfo">
-        <a href="salon-services.html">Salon</a>&nbsp; |&nbsp; <a href="spa-services.html">Spa</a> &nbsp;| &nbsp; <a href="store.html">Shop / Gift Cards</a>
+        <a href="salon-services.html">Salon</a>&nbsp; | &nbsp; 
+        <a href="spa-services.html">Spa</a> &nbsp;| &nbsp; 
+        <a href="store.html">Shop / Gift Cards</a> &nbsp;| &nbsp; 
+        <a href="https://bookchangessalon.com/onlinebooking2/#/" target="_blank">Make an Appointment</a>
     </div>
 </header>
 
