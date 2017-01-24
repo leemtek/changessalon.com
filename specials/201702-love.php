@@ -42,7 +42,7 @@
             <section id="first">
                 <div class="row space-bottom-40">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-offset-1 text-center">
-                        <img src="/assets/img/promos/201602-february.jpg" class="img-responsive center-block" alt="February is the Month of Love" />
+                        <img src="/assets/img/promos/201702-february.jpg" class="img-responsive center-block" alt="February is the Month of Love" />
                     </div><!-- /col -->
 
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
