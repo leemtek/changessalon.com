@@ -46,7 +46,7 @@
                     </div><!-- /col -->
 
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
-                        <div class="space-bottom-40"></div>
+                        <div class="space-bottom-20"></div>
                         <div class="panel panel-danger">
                             <div class="panel-heading">
                                 <div class="text-center text-bold" style="font-size: 18px;">February is the month of Love</div>
