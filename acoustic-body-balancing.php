@@ -48,14 +48,15 @@
                 <article class="col-lg-10 space-bottom-40">
                     <img src="/images/massage.jpg" class="img-responsive" />
 
-                    <header><h2>Acoustic Body Balancing</h2></header>
-                    <p>Awaken your senses and restore your body’s natural balance. Our So Sound® lounger promotes deep relaxation through a blend of ambient tones and soothing vibrations to intensify your spa experience.</p>
+                    <header><h2>Acoustic Body Balancing <span class="label label-default">New</span></h2></header>
+                    <p class="space-top-20">Acoustic Body Balancing relaxes your body, quiets your mind and inspires your soul as you feel the music you simultaneously hear resonating through you like a musical massage. Acoustic Body Balancing promotes deep relaxation and stress relief by utilizing the natural healing frequencies of music.</p>
+                    <p>The music used in the treatment is recorded using specific frequencies that have been found to support specific bio-energetic goals and healing properties; thus providing a comprehensive stress management and sensory rich integration environment like nothing you have ever experienced before. The Acoustic Body Balancing treatment can be added to any service to enhance your spa experience or enjoyed on its own.</p>
                     <ul>
                         <li>15 minutes $25</li>
                         <li>30 minutes $40</li>
                         <li>60 minutes $55</li>
                     </ul>
-                    <p><a href="https://www.demandforced3.com/www/etile_scheduler_popup.jsp?d3cp_exid=changessalon&d3cp_source=My%20Website" target="_blank" class="btn btn-primary">Request Appointment</a></p>
+                    <p class="space-top-20"><a href="https://www.demandforced3.com/www/etile_scheduler_popup.jsp?d3cp_exid=changessalon&d3cp_source=My%20Website" target="_blank" class="btn btn-primary">Request Appointment</a></p>
                 </article><!-- /col -->
             </div><!-- /row -->
         </section>
