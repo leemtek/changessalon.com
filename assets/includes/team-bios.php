@@ -460,7 +460,7 @@
         ),
         array(
             "Kara",
-            "Signature Stylist",
+            "Stylist",
             "Stylists",
             "Albums/Stylists/thumbs/Kara.jpg",
             "I have been a hairstylist for 4 years, I have always had a passion for hair, I began my education at 16
