@@ -59,58 +59,59 @@
 
                 <div id="grid">
                     <!-- -------------------------- BOX MARKUP -------------------------- -->
-                    <?php
-                        for($row = 0; $row < count($employees); $row++) {
-                            ?>
-                                <!-- Media Box -->
-                                <div class="media-box <?php echo $employees[$row][2]; ?>">
-                                    <div class="media-box-image">
-                                        <div data-width="320" data-height="320" data-thumbnail="<?php echo $employees[$row][3]; ?>"></div>
+                    <?php for($row = 0; $row < count($employees); $row++) { ?>
+                        <!-- Media Box -->
+                        <div class="media-box <?php echo $employees[$row][2]; ?>">
+                            <div class="media-box-image">
+                                <div data-width="320" data-height="320" data-thumbnail="<?php echo $employees[$row][3]; ?>"></div>
 
-                                        <div class="thumbnail-overlay">
-                                            <a href="#" data-toggle="modal" data-target="#modal<?php echo $employees[$row][0]; ?>" class="btn btn-sm btn-default <?php if(!$employees[$row][4]) { echo "disabled"; } ?>">More Details</a>
+                                <div class="thumbnail-overlay">
+                                    <a href="#" data-toggle="modal" data-target="#modal<?php echo $employees[$row][0]; ?>" class="btn btn-sm btn-default <?php if(!$employees[$row][4]) { echo "disabled"; } ?>">More Details</a>
+                                </div>
+                            </div>
+
+                            <div class="media-box-content">
+                                <div class="media-box-title">
+                                    <?php echo $employees[$row][0]; ?><br />
+                                    <span style="font-weight: normal; font-size: 12px;"><?php echo $employees[$row][1]; ?></span>
+                                </div>
+                            </div>
+                        </div><!-- /media-box -->
+
+                        <!-- Even boxes out. -->
+                        <?php if ($row % 4 == 0) { ?>
+                            <div class="clearfix"></div>
+                        <?php } // if ?>
+
+                        <!-- Modal - Employee Information -->
+                        <?php if ($employees[$row][4]) { ?>
+                            <div class="modal fade" id="modal<?php echo $employees[$row][0]; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <!-- Header -->
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            <h4 class="modal-title text-center" id="myModalLabel"><strong><?php echo $employees[$row][0]; ?> </strong><small><?php echo $employees[$row][1]; ?></small></h4>
                                         </div>
-                                    </div>
 
-                                    <div class="media-box-content">
-                                        <div class="media-box-title">
-                                            <?php echo $employees[$row][0]; ?><br />
-                                            <span style="font-weight: normal; font-size: 12px;"><?php echo $employees[$row][1]; ?></span>
+                                        <!-- Body -->
+                                        <div class="modal-body">
+                                            <p>
+                                                <img id="bio-pic" class="pull-left" src="<?php echo $employees[$row][3]; ?>" style="padding: 0px 30px 20px 0px; width: 50%;" />
+                                                <?php echo $employees[$row][4]; ?>
+                                            </p>
                                         </div>
-                                    </div>
-                                </div><!-- /media-box -->
 
-                                <!-- Modal - Employee Information -->
-                                <?php if ($employees[$row][4]) { ?>
-                                    <div class="modal fade" id="modal<?php echo $employees[$row][0]; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                                        <div class="modal-dialog" role="document">
-                                            <div class="modal-content">
-                                                <!-- Header -->
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                                    <h4 class="modal-title text-center" id="myModalLabel"><strong><?php echo $employees[$row][0]; ?> </strong><small><?php echo $employees[$row][1]; ?></small></h4>
-                                                </div>
-
-                                                <!-- Body -->
-                                                <div class="modal-body">
-                                                    <p>
-                                                        <img id="bio-pic" class="pull-left" src="<?php echo $employees[$row][3]; ?>" style="padding: 0px 30px 20px 0px; width: 50%;" />
-                                                        <?php echo $employees[$row][4]; ?>
-                                                    </p>
-                                                </div>
-
-                                                <!-- Footer -->
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                    <a href="contact-us.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
-                                                </div>
-                                            </div><!-- /modal-content -->
-                                        </div><!-- /modal-dialog -->
-                                    </div><!-- /modal -->
-                                <?php } ?><!-- /if (!$employees[$row][4]) -->
-                            <?php
-                        } // for
-                    ?>
+                                        <!-- Footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <a href="contact-us.html"><button type="button" class="btn btn-primary">Contact Us</button></a>
+                                        </div>
+                                    </div><!-- /modal-content -->
+                                </div><!-- /modal-dialog -->
+                            </div><!-- /modal -->
+                        <?php } ?><!-- /if (!$employees[$row][4]) -->
+                    <?php } // for ?>
 
                 </div><!-- /grid -->
 

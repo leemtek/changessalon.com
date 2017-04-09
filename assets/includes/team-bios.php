@@ -186,17 +186,6 @@
                 being at Changes as much as I do."
         ),
         array(
-            "Dominique",
-            "Esthetician",
-            "Estheticians",
-            "Albums/Estheticians/thumbs/Dominique.jpg",
-            "At an early age I was always fascinated with skincare and makeup and loved seeing the transformation. I 
-                obtained my license in 2009 and continue to work on education as the industry is forever changing. My 
-                love for skin care makes my job an enjoyable experience and I strive to ensure the connection with my 
-                clients, establish trust and create attention for their individual needs. I'm grateful that I'm able to 
-                be apart of team changes and to make a difference in the lives of my clients."
-        ),
-        array(
             "Kristin",
             "Esthetician",
             "Estheticians",
@@ -421,6 +410,13 @@
             null
         ),
         array(
+            "Mary",
+            "Manicurist",
+            "Manicurists",
+            "Albums/logo-team-bio-nophoto.jpg",
+            "I've been in the beauty industry for many years. I love interacting with guests. My passion is to make my clients feel comfortable and leave happy with nails they love."
+        ),
+        array(
             "Angela",
             "Manicurist III",
             "Manicurists",
@@ -465,6 +461,22 @@
             "Albums/Stylists/thumbs/Kara.jpg",
             "I have been a hairstylist for 4 years, I have always had a passion for hair, I began my education at 16
             years old and haven't looked back once, I enjoy creating a unique masterpiece on each client!"
+        ),
+        array(
+            "Elizabeth",
+            "Stylist Associate",
+            "Stylists",
+            "Albums/logo-team-bio-nophoto.jpg",
+            "Newly licensed and eager to share my creative visions. I love a stylish cut to compliment all color 
+            services. My dream is to make your dreams come true!"
+        ),
+        array(
+            "Jessica",
+            "Stylist",
+            "Stylists",
+            "Albums/logo-team-bio-nophoto.jpg",
+            "I am committed to attending advanced education and training in hair cutting and color to provide my 
+            guests exceptional results. I am excited to make a name for myself in the beauty  industry!"
         ),
     ); // $employees
     shuffle($employees);
