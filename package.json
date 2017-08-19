@@ -1,0 +1,18 @@
+{
+  "name": "changessalon",
+  "version": "1.0.0",
+  "main": "index.php",
+  "repository": "git@github.com:leemtek/changessalon.com.git",
+  "author": "Duane Leem <duane@leemfamily.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "php -S localhost:8080"
+  },
+  "dependencies": {
+    "angular": "~1.5.8",
+    "angular-animate": "~1.5.8",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "jquery": "2.2.3"
+  }
+}

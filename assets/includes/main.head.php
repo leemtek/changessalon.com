@@ -21,10 +21,10 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
 <!-- Bootstrap -->
-<link href="/assets/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Font-awesome -->
-<link rel="stylesheet" href="/assets/bower_components/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/node_modules/font-awesome/css/font-awesome.min.css">
 
 <!-- LeemTek -->
 <link href="/assets/css/leemtek.css" rel="stylesheet">

@@ -170,14 +170,14 @@
         <?php include_once("./assets/includes/main.body.footer.php"); ?>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="/assets/bower_components/jQuery/dist/jquery.min.js"></script>
+        <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/node_modules/jquery/dist/jquery.min.js"></script>
 
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="/assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
         <!-- AngularJS -->
-        <script src="/assets/bower_components/angular/angular.min.js"></script>
-        <script src="/assets/bower_components/angular-animate/angular-animate.min.js"></script>
+        <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/node_modules/angular/angular.min.js"></script>
+        <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/changessalon/node_modules/angular-animate/angular-animate.min.js"></script>
         <script>
             (function() {
                 angular.module("changessalonApp", [])

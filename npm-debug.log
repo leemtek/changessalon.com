@@ -1,0 +1,795 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData bootstrap
+20 silly mapToRegistry name bootstrap
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'bootstrap',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'bootstrap',
+23 silly mapToRegistry   name: 'bootstrap',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+25 silly fetchNamedPackageData jQuery
+26 silly mapToRegistry name jQuery
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'jQuery',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'jQuery',
+29 silly mapToRegistry   name: 'jQuery',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/jQuery
+31 silly fetchNamedPackageData font-awesome
+32 silly mapToRegistry name font-awesome
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'font-awesome',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'font-awesome',
+35 silly mapToRegistry   name: 'font-awesome',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+37 silly fetchNamedPackageData angular
+38 silly mapToRegistry name angular
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'angular',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'angular',
+41 silly mapToRegistry   name: 'angular',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/angular
+43 silly fetchNamedPackageData angular-animate
+44 silly mapToRegistry name angular-animate
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'angular-animate',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'angular-animate',
+47 silly mapToRegistry   name: 'angular-animate',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/angular-animate
+49 verbose request uri https://registry.npmjs.org/bootstrap
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 12:29:23 PM
+52 verbose request id 0eea518922d00c1d
+53 http request GET https://registry.npmjs.org/bootstrap
+54 verbose request uri https://registry.npmjs.org/jQuery
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 12:29:23 PM
+57 http request GET https://registry.npmjs.org/jQuery
+58 verbose request uri https://registry.npmjs.org/font-awesome
+59 verbose request no auth needed
+60 info attempt registry request try #1 at 12:29:23 PM
+61 http request GET https://registry.npmjs.org/font-awesome
+62 verbose request uri https://registry.npmjs.org/angular
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 12:29:23 PM
+65 http request GET https://registry.npmjs.org/angular
+66 verbose request uri https://registry.npmjs.org/angular-animate
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 12:29:23 PM
+69 http request GET https://registry.npmjs.org/angular-animate
+70 http 200 https://registry.npmjs.org/angular
+71 verbose headers { server: 'nginx/1.10.1',
+71 verbose headers   'content-type': 'application/json',
+71 verbose headers   'last-modified': 'Sat, 05 Aug 2017 04:19:14 GMT',
+71 verbose headers   etag: 'W/"59854742-2505b"',
+71 verbose headers   'content-encoding': 'gzip',
+71 verbose headers   'cache-control': 'max-age=300',
+71 verbose headers   'content-length': '15663',
+71 verbose headers   'accept-ranges': 'bytes',
+71 verbose headers   date: 'Sun, 06 Aug 2017 19:29:23 GMT',
+71 verbose headers   via: '1.1 varnish',
+71 verbose headers   age: '248',
+71 verbose headers   connection: 'keep-alive',
+71 verbose headers   'x-served-by': 'cache-sjc3122-SJC',
+71 verbose headers   'x-cache': 'HIT',
+71 verbose headers   'x-cache-hits': '1',
+71 verbose headers   'x-timer': 'S1502047764.512011,VS0,VE1',
+71 verbose headers   vary: 'Accept-Encoding, Accept' }
+72 silly get cb [ 200,
+72 silly get   { server: 'nginx/1.10.1',
+72 silly get     'content-type': 'application/json',
+72 silly get     'last-modified': 'Sat, 05 Aug 2017 04:19:14 GMT',
+72 silly get     etag: 'W/"59854742-2505b"',
+72 silly get     'content-encoding': 'gzip',
+72 silly get     'cache-control': 'max-age=300',
+72 silly get     'content-length': '15663',
+72 silly get     'accept-ranges': 'bytes',
+72 silly get     date: 'Sun, 06 Aug 2017 19:29:23 GMT',
+72 silly get     via: '1.1 varnish',
+72 silly get     age: '248',
+72 silly get     connection: 'keep-alive',
+72 silly get     'x-served-by': 'cache-sjc3122-SJC',
+72 silly get     'x-cache': 'HIT',
+72 silly get     'x-cache-hits': '1',
+72 silly get     'x-timer': 'S1502047764.512011,VS0,VE1',
+72 silly get     vary: 'Accept-Encoding, Accept' } ]
+73 verbose get saving angular to /Users/duaneleem/.npm/registry.npmjs.org/angular/.cache.json
+74 verbose correctMkdir /Users/duaneleem/.npm correctMkdir not in flight; initializing
+75 http 200 https://registry.npmjs.org/font-awesome
+76 verbose headers { server: 'nginx/1.10.3',
+76 verbose headers   'content-type': 'application/json',
+76 verbose headers   'last-modified': 'Wed, 02 Aug 2017 08:33:51 GMT',
+76 verbose headers   etag: 'W/"59818e6f-572a"',
+76 verbose headers   'content-encoding': 'gzip',
+76 verbose headers   'cache-control': 'max-age=300',
+76 verbose headers   'content-length': '4684',
+76 verbose headers   'accept-ranges': 'bytes',
+76 verbose headers   date: 'Sun, 06 Aug 2017 19:29:23 GMT',
+76 verbose headers   via: '1.1 varnish',
+76 verbose headers   age: '122',
+76 verbose headers   connection: 'keep-alive',
+76 verbose headers   'x-served-by': 'cache-sjc3651-SJC',
+76 verbose headers   'x-cache': 'HIT',
+76 verbose headers   'x-cache-hits': '1',
+76 verbose headers   'x-timer': 'S1502047764.537339,VS0,VE1',
+76 verbose headers   vary: 'Accept-Encoding, Accept' }
+77 silly get cb [ 200,
+77 silly get   { server: 'nginx/1.10.3',
+77 silly get     'content-type': 'application/json',
+77 silly get     'last-modified': 'Wed, 02 Aug 2017 08:33:51 GMT',
+77 silly get     etag: 'W/"59818e6f-572a"',
+77 silly get     'content-encoding': 'gzip',
+77 silly get     'cache-control': 'max-age=300',
+77 silly get     'content-length': '4684',
+77 silly get     'accept-ranges': 'bytes',
+77 silly get     date: 'Sun, 06 Aug 2017 19:29:23 GMT',
+77 silly get     via: '1.1 varnish',
+77 silly get     age: '122',
+77 silly get     connection: 'keep-alive',
+77 silly get     'x-served-by': 'cache-sjc3651-SJC',
+77 silly get     'x-cache': 'HIT',
+77 silly get     'x-cache-hits': '1',
+77 silly get     'x-timer': 'S1502047764.537339,VS0,VE1',
+77 silly get     vary: 'Accept-Encoding, Accept' } ]
+78 verbose get saving font-awesome to /Users/duaneleem/.npm/registry.npmjs.org/font-awesome/.cache.json
+79 verbose correctMkdir /Users/duaneleem/.npm correctMkdir not in flight; initializing
+80 http 200 https://registry.npmjs.org/jQuery
+81 verbose headers { server: 'nginx/1.10.1',
+81 verbose headers   'content-type': 'application/json',
+81 verbose headers   'last-modified': 'Thu, 18 May 2017 21:37:29 GMT',
+81 verbose headers   etag: 'W/"591e1419-1fb4"',
+81 verbose headers   'content-encoding': 'gzip',
+81 verbose headers   'cache-control': 'max-age=300',
+81 verbose headers   'content-length': '1953',
+81 verbose headers   'accept-ranges': 'bytes',
+81 verbose headers   date: 'Sun, 06 Aug 2017 19:29:23 GMT',
+81 verbose headers   via: '1.1 varnish',
+81 verbose headers   age: '0',
+81 verbose headers   connection: 'keep-alive',
+81 verbose headers   'x-served-by': 'cache-sjc3136-SJC',
+81 verbose headers   'x-cache': 'MISS',
+81 verbose headers   'x-cache-hits': '0',
+81 verbose headers   'x-timer': 'S1502047764.537539,VS0,VE21',
+81 verbose headers   vary: 'Accept-Encoding, Accept' }
+82 silly get cb [ 200,
+82 silly get   { server: 'nginx/1.10.1',
+82 silly get     'content-type': 'application/json',
+82 silly get     'last-modified': 'Thu, 18 May 2017 21:37:29 GMT',
+82 silly get     etag: 'W/"591e1419-1fb4"',
+82 silly get     'content-encoding': 'gzip',
+82 silly get     'cache-control': 'max-age=300',
+82 silly get     'content-length': '1953',
+82 silly get     'accept-ranges': 'bytes',
+82 silly get     date: 'Sun, 06 Aug 2017 19:29:23 GMT',
+82 silly get     via: '1.1 varnish',
+82 silly get     age: '0',
+82 silly get     connection: 'keep-alive',
+82 silly get     'x-served-by': 'cache-sjc3136-SJC',
+82 silly get     'x-cache': 'MISS',
+82 silly get     'x-cache-hits': '0',
+82 silly get     'x-timer': 'S1502047764.537539,VS0,VE21',
+82 silly get     vary: 'Accept-Encoding, Accept' } ]
+83 verbose get saving jQuery to /Users/duaneleem/.npm/registry.npmjs.org/jQuery/.cache.json
+84 verbose correctMkdir /Users/duaneleem/.npm correctMkdir not in flight; initializing
+85 silly resolveWithNewModule angular@1.5.11 checking installable status
+86 silly cache add args [ 'angular@~1.5.8', null ]
+87 verbose cache add spec angular@~1.5.8
+88 silly cache add parsed spec Result {
+88 silly cache add   raw: 'angular@~1.5.8',
+88 silly cache add   scope: null,
+88 silly cache add   escapedName: 'angular',
+88 silly cache add   name: 'angular',
+88 silly cache add   rawSpec: '~1.5.8',
+88 silly cache add   spec: '>=1.5.8 <1.6.0',
+88 silly cache add   type: 'range' }
+89 silly addNamed angular@>=1.5.8 <1.6.0
+90 verbose addNamed ">=1.5.8 <1.6.0" is a valid semver range for angular
+91 silly addNameRange { name: 'angular', range: '>=1.5.8 <1.6.0', hasData: false }
+92 silly mapToRegistry name angular
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'angular',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   escapedName: 'angular',
+95 silly mapToRegistry   name: 'angular',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/angular
+97 verbose addNameRange registry:https://registry.npmjs.org/angular not in flight; fetching
+98 http 200 https://registry.npmjs.org/angular-animate
+99 verbose headers { server: 'nginx/1.10.3',
+99 verbose headers   'content-type': 'application/json',
+99 verbose headers   'last-modified': 'Mon, 03 Jul 2017 19:52:24 GMT',
+99 verbose headers   etag: 'W/"595aa078-1b288"',
+99 verbose headers   'content-encoding': 'gzip',
+99 verbose headers   'cache-control': 'max-age=300',
+99 verbose headers   'content-length': '11224',
+99 verbose headers   'accept-ranges': 'bytes',
+99 verbose headers   date: 'Sun, 06 Aug 2017 19:29:23 GMT',
+99 verbose headers   via: '1.1 varnish',
+99 verbose headers   age: '248',
+99 verbose headers   connection: 'keep-alive',
+99 verbose headers   'x-served-by': 'cache-sjc3141-SJC',
+99 verbose headers   'x-cache': 'HIT',
+99 verbose headers   'x-cache-hits': '1',
+99 verbose headers   'x-timer': 'S1502047764.548438,VS0,VE1',
+99 verbose headers   vary: 'Accept-Encoding, Accept' }
+100 silly get cb [ 200,
+100 silly get   { server: 'nginx/1.10.3',
+100 silly get     'content-type': 'application/json',
+100 silly get     'last-modified': 'Mon, 03 Jul 2017 19:52:24 GMT',
+100 silly get     etag: 'W/"595aa078-1b288"',
+100 silly get     'content-encoding': 'gzip',
+100 silly get     'cache-control': 'max-age=300',
+100 silly get     'content-length': '11224',
+100 silly get     'accept-ranges': 'bytes',
+100 silly get     date: 'Sun, 06 Aug 2017 19:29:23 GMT',
+100 silly get     via: '1.1 varnish',
+100 silly get     age: '248',
+100 silly get     connection: 'keep-alive',
+100 silly get     'x-served-by': 'cache-sjc3141-SJC',
+100 silly get     'x-cache': 'HIT',
+100 silly get     'x-cache-hits': '1',
+100 silly get     'x-timer': 'S1502047764.548438,VS0,VE1',
+100 silly get     vary: 'Accept-Encoding, Accept' } ]
+101 verbose get saving angular-animate to /Users/duaneleem/.npm/registry.npmjs.org/angular-animate/.cache.json
+102 verbose correctMkdir /Users/duaneleem/.npm correctMkdir not in flight; initializing
+103 silly resolveWithNewModule font-awesome@4.4.0 checking installable status
+104 silly cache add args [ 'font-awesome@~4.4.0', null ]
+105 verbose cache add spec font-awesome@~4.4.0
+106 silly cache add parsed spec Result {
+106 silly cache add   raw: 'font-awesome@~4.4.0',
+106 silly cache add   scope: null,
+106 silly cache add   escapedName: 'font-awesome',
+106 silly cache add   name: 'font-awesome',
+106 silly cache add   rawSpec: '~4.4.0',
+106 silly cache add   spec: '>=4.4.0 <4.5.0',
+106 silly cache add   type: 'range' }
+107 silly addNamed font-awesome@>=4.4.0 <4.5.0
+108 verbose addNamed ">=4.4.0 <4.5.0" is a valid semver range for font-awesome
+109 silly addNameRange { name: 'font-awesome', range: '>=4.4.0 <4.5.0', hasData: false }
+110 silly mapToRegistry name font-awesome
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'font-awesome',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   escapedName: 'font-awesome',
+113 silly mapToRegistry   name: 'font-awesome',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+115 verbose addNameRange registry:https://registry.npmjs.org/font-awesome not in flight; fetching
+116 verbose get https://registry.npmjs.org/angular not expired, no request
+117 silly addNameRange number 2 { name: 'angular', range: '>=1.5.8 <1.6.0', hasData: true }
+118 silly addNameRange versions [ 'angular',
+118 silly addNameRange   [ '0.0.1',
+118 silly addNameRange     '0.0.1-1',
+118 silly addNameRange     '0.0.1-2',
+118 silly addNameRange     '0.0.2',
+118 silly addNameRange     '0.0.3',
+118 silly addNameRange     '0.0.4',
+118 silly addNameRange     '1.0.0',
+118 silly addNameRange     '1.0.1',
+118 silly addNameRange     '1.0.2',
+118 silly addNameRange     '1.0.3',
+118 silly addNameRange     '1.0.4',
+118 silly addNameRange     '1.0.5',
+118 silly addNameRange     '1.0.6',
+118 silly addNameRange     '1.0.7',
+118 silly addNameRange     '1.0.8',
+118 silly addNameRange     '1.1.0',
+118 silly addNameRange     '1.1.1',
+118 silly addNameRange     '1.1.2',
+118 silly addNameRange     '1.1.3',
+118 silly addNameRange     '1.1.4',
+118 silly addNameRange     '1.1.5',
+118 silly addNameRange     '1.2.0',
+118 silly addNameRange     '1.2.1',
+118 silly addNameRange     '1.2.2',
+118 silly addNameRange     '1.2.3',
+118 silly addNameRange     '1.2.4',
+118 silly addNameRange     '1.2.5',
+118 silly addNameRange     '1.2.6',
+118 silly addNameRange     '1.2.7',
+118 silly addNameRange     '1.2.8',
+118 silly addNameRange     '1.2.9',
+118 silly addNameRange     '1.2.10',
+118 silly addNameRange     '1.2.11',
+118 silly addNameRange     '1.2.12',
+118 silly addNameRange     '1.2.13',
+118 silly addNameRange     '1.2.14',
+118 silly addNameRange     '1.2.15',
+118 silly addNameRange     '1.2.16',
+118 silly addNameRange     '1.2.17',
+118 silly addNameRange     '1.2.18',
+118 silly addNameRange     '1.2.19',
+118 silly addNameRange     '1.2.20',
+118 silly addNameRange     '1.2.21',
+118 silly addNameRange     '1.2.22',
+118 silly addNameRange     '1.2.23',
+118 silly addNameRange     '1.3.0-rc.5',
+118 silly addNameRange     '1.3.0',
+118 silly addNameRange     '1.3.1',
+118 silly addNameRange     '1.3.2',
+118 silly addNameRange     '1.3.3',
+118 silly addNameRange     '1.3.4-build.3588',
+118 silly addNameRange     '1.2.27',
+118 silly addNameRange     '1.3.4',
+118 silly addNameRange     '1.3.5',
+118 silly addNameRange     '1.3.6',
+118 silly addNameRange     '1.3.7',
+118 silly addNameRange     '1.2.28',
+118 silly addNameRange     '1.3.8',
+118 silly addNameRange     '1.4.0-beta.0',
+118 silly addNameRange     '1.3.9',
+118 silly addNameRange     '1.3.10',
+118 silly addNameRange     '1.4.0-beta.1',
+118 silly addNameRange     '1.4.0-beta.2',
+118 silly addNameRange     '1.3.11',
+118 silly addNameRange     '1.4.0-beta.3',
+118 silly addNameRange     '1.3.12',
+118 silly addNameRange     '1.3.13',
+118 silly addNameRange     '1.4.0-beta.4',
+118 silly addNameRange     '1.3.14',
+118 silly addNameRange     '1.4.0-beta.5',
+118 silly addNameRange     '1.4.0-beta.6',
+118 silly addNameRange     '1.3.15',
+118 silly addNameRange     '1.4.0-rc.0',
+118 silly addNameRange     '1.4.0-rc.1',
+118 silly addNameRange     '1.4.0-rc.2',
+118 silly addNameRange     '1.4.0',
+118 silly addNameRange     '1.3.16',
+118 silly addNameRange     '1.4.1',
+118 silly addNameRange     '1.4.2',
+118 silly addNameRange     '1.3.17',
+118 silly addNameRange     '1.4.3',
+118 silly addNameRange     '1.4.4',
+118 silly addNameRange     '1.3.18',
+118 silly addNameRange     '1.4.5',
+118 silly addNameRange     '1.3.19',
+118 silly addNameRange     '1.4.6',
+118 silly addNameRange     '1.5.0-beta.0',
+118 silly addNameRange     '1.2.29',
+118 silly addNameRange     '1.3.20',
+118 silly addNameRange     '1.4.7',
+118 silly addNameRange     '1.5.0-beta.2',
+118 silly addNameRange     '1.4.8',
+118 silly addNameRange     '1.5.0-rc.0',
+118 silly addNameRange     '1.5.0-rc.1',
+118 silly addNameRange     '1.4.9',
+118 silly addNameRange     '1.5.0-rc.2',
+118 silly addNameRange     '1.5.0',
+118 silly addNameRange     '1.5.1',
+118 silly addNameRange     '1.4.10',
+118 silly addNameRange     '1.5.2',
+118 silly addNameRange     ... 24 more items ] ]
+119 silly addNamed angular@1.5.11
+120 verbose addNamed "1.5.11" is a plain semver version for angular
+121 http 200 https://registry.npmjs.org/bootstrap
+122 verbose headers { server: 'nginx/1.10.3',
+122 verbose headers   'content-type': 'application/json',
+122 verbose headers   'last-modified': 'Wed, 02 Aug 2017 06:12:55 GMT',
+122 verbose headers   etag: 'W/"59816d67-c83a"',
+122 verbose headers   'content-encoding': 'gzip',
+122 verbose headers   'cache-control': 'max-age=300',
+122 verbose headers   'content-length': '9924',
+122 verbose headers   'accept-ranges': 'bytes',
+122 verbose headers   date: 'Sun, 06 Aug 2017 19:29:23 GMT',
+122 verbose headers   via: '1.1 varnish',
+122 verbose headers   age: '0',
+122 verbose headers   connection: 'keep-alive',
+122 verbose headers   'x-served-by': 'cache-sjc3620-SJC',
+122 verbose headers   'x-cache': 'HIT',
+122 verbose headers   'x-cache-hits': '1',
+122 verbose headers   'x-timer': 'S1502047764.548431,VS0,VE22',
+122 verbose headers   vary: 'Accept-Encoding, Accept' }
+123 silly get cb [ 200,
+123 silly get   { server: 'nginx/1.10.3',
+123 silly get     'content-type': 'application/json',
+123 silly get     'last-modified': 'Wed, 02 Aug 2017 06:12:55 GMT',
+123 silly get     etag: 'W/"59816d67-c83a"',
+123 silly get     'content-encoding': 'gzip',
+123 silly get     'cache-control': 'max-age=300',
+123 silly get     'content-length': '9924',
+123 silly get     'accept-ranges': 'bytes',
+123 silly get     date: 'Sun, 06 Aug 2017 19:29:23 GMT',
+123 silly get     via: '1.1 varnish',
+123 silly get     age: '0',
+123 silly get     connection: 'keep-alive',
+123 silly get     'x-served-by': 'cache-sjc3620-SJC',
+123 silly get     'x-cache': 'HIT',
+123 silly get     'x-cache-hits': '1',
+123 silly get     'x-timer': 'S1502047764.548431,VS0,VE22',
+123 silly get     vary: 'Accept-Encoding, Accept' } ]
+124 verbose get saving bootstrap to /Users/duaneleem/.npm/registry.npmjs.org/bootstrap/.cache.json
+125 verbose correctMkdir /Users/duaneleem/.npm correctMkdir not in flight; initializing
+126 silly mapToRegistry name angular
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry data Result {
+129 silly mapToRegistry   raw: 'angular',
+129 silly mapToRegistry   scope: null,
+129 silly mapToRegistry   escapedName: 'angular',
+129 silly mapToRegistry   name: 'angular',
+129 silly mapToRegistry   rawSpec: '',
+129 silly mapToRegistry   spec: 'latest',
+129 silly mapToRegistry   type: 'tag' }
+130 silly mapToRegistry uri https://registry.npmjs.org/angular
+131 verbose addRemoteTarball https://registry.npmjs.org/angular/-/angular-1.5.11.tgz not in flight; adding
+132 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular/-/angular-1.5.11.tgz',
+132 verbose addRemoteTarball   '8c5ba7386f15965c9acf3429f6881553aada30d6' ]
+133 verbose get https://registry.npmjs.org/font-awesome not expired, no request
+134 silly addNameRange number 2 { name: 'font-awesome', range: '>=4.4.0 <4.5.0', hasData: true }
+135 silly addNameRange versions [ 'font-awesome',
+135 silly addNameRange   [ '3.2.1',
+135 silly addNameRange     '4.0.3',
+135 silly addNameRange     '4.1.0',
+135 silly addNameRange     '4.2.0',
+135 silly addNameRange     '4.3.0',
+135 silly addNameRange     '4.4.0',
+135 silly addNameRange     '4.5.0',
+135 silly addNameRange     '4.6.1',
+135 silly addNameRange     '4.6.3',
+135 silly addNameRange     '4.7.0' ] ]
+136 silly addNamed font-awesome@4.4.0
+137 verbose addNamed "4.4.0" is a plain semver version for font-awesome
+138 silly fetchPackageMetaData Error: No compatible version found: jQuery@2.2.3
+138 silly fetchPackageMetaData Valid install targets:
+138 silly fetchPackageMetaData 1.7.4, 1.7.3, 1.7.2, 1.6.3, 1.6.2
+138 silly fetchPackageMetaData
+138 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:178:16)
+138 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+138 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+138 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+138 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:241:18
+138 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+138 silly fetchPackageMetaData  error for jQuery@2.2.3 { Error: No compatible version found: jQuery@2.2.3
+138 silly fetchPackageMetaData Valid install targets:
+138 silly fetchPackageMetaData 1.7.4, 1.7.3, 1.7.2, 1.6.3, 1.6.2
+138 silly fetchPackageMetaData
+138 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:178:16)
+138 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+138 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+138 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+138 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:241:18
+138 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ETARGET' }
+139 silly mapToRegistry name font-awesome
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry https://registry.npmjs.org/
+142 silly mapToRegistry data Result {
+142 silly mapToRegistry   raw: 'font-awesome',
+142 silly mapToRegistry   scope: null,
+142 silly mapToRegistry   escapedName: 'font-awesome',
+142 silly mapToRegistry   name: 'font-awesome',
+142 silly mapToRegistry   rawSpec: '',
+142 silly mapToRegistry   spec: 'latest',
+142 silly mapToRegistry   type: 'tag' }
+143 silly mapToRegistry uri https://registry.npmjs.org/font-awesome
+144 verbose addRemoteTarball https://registry.npmjs.org/font-awesome/-/font-awesome-4.4.0.tgz not in flight; adding
+145 verbose addRemoteTarball [ 'https://registry.npmjs.org/font-awesome/-/font-awesome-4.4.0.tgz',
+145 verbose addRemoteTarball   '9fe43f82cf72726badcbdb2704407aadaca17da9' ]
+146 silly resolveWithNewModule angular-animate@1.5.11 checking installable status
+147 silly cache add args [ 'angular-animate@~1.5.8', null ]
+148 verbose cache add spec angular-animate@~1.5.8
+149 silly cache add parsed spec Result {
+149 silly cache add   raw: 'angular-animate@~1.5.8',
+149 silly cache add   scope: null,
+149 silly cache add   escapedName: 'angular-animate',
+149 silly cache add   name: 'angular-animate',
+149 silly cache add   rawSpec: '~1.5.8',
+149 silly cache add   spec: '>=1.5.8 <1.6.0',
+149 silly cache add   type: 'range' }
+150 silly addNamed angular-animate@>=1.5.8 <1.6.0
+151 verbose addNamed ">=1.5.8 <1.6.0" is a valid semver range for angular-animate
+152 silly addNameRange { name: 'angular-animate',
+152 silly addNameRange   range: '>=1.5.8 <1.6.0',
+152 silly addNameRange   hasData: false }
+153 silly mapToRegistry name angular-animate
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry https://registry.npmjs.org/
+156 silly mapToRegistry data Result {
+156 silly mapToRegistry   raw: 'angular-animate',
+156 silly mapToRegistry   scope: null,
+156 silly mapToRegistry   escapedName: 'angular-animate',
+156 silly mapToRegistry   name: 'angular-animate',
+156 silly mapToRegistry   rawSpec: '',
+156 silly mapToRegistry   spec: 'latest',
+156 silly mapToRegistry   type: 'tag' }
+157 silly mapToRegistry uri https://registry.npmjs.org/angular-animate
+158 verbose addNameRange registry:https://registry.npmjs.org/angular-animate not in flight; fetching
+159 info retry fetch attempt 1 at 12:29:23 PM
+160 info attempt registry request try #1 at 12:29:23 PM
+161 http fetch GET https://registry.npmjs.org/font-awesome/-/font-awesome-4.4.0.tgz
+162 verbose get https://registry.npmjs.org/angular-animate not expired, no request
+163 silly addNameRange number 2 { name: 'angular-animate',
+163 silly addNameRange   range: '>=1.5.8 <1.6.0',
+163 silly addNameRange   hasData: true }
+164 silly addNameRange versions [ 'angular-animate',
+164 silly addNameRange   [ '0.0.1',
+164 silly addNameRange     '0.0.2',
+164 silly addNameRange     '1.2.19-build.256',
+164 silly addNameRange     '1.2.16',
+164 silly addNameRange     '1.2.23',
+164 silly addNameRange     '1.3.0-rc.5',
+164 silly addNameRange     '1.3.0',
+164 silly addNameRange     '1.3.1',
+164 silly addNameRange     '1.3.2',
+164 silly addNameRange     '1.3.3',
+164 silly addNameRange     '1.3.4-build.3588',
+164 silly addNameRange     '1.2.27',
+164 silly addNameRange     '1.3.4',
+164 silly addNameRange     '1.3.5',
+164 silly addNameRange     '1.3.6',
+164 silly addNameRange     '1.3.7',
+164 silly addNameRange     '1.2.28',
+164 silly addNameRange     '1.3.8',
+164 silly addNameRange     '1.4.0-beta.0',
+164 silly addNameRange     '1.3.9',
+164 silly addNameRange     '1.3.10',
+164 silly addNameRange     '1.4.0-beta.1',
+164 silly addNameRange     '1.4.0-beta.2',
+164 silly addNameRange     '1.3.11',
+164 silly addNameRange     '1.4.0-beta.3',
+164 silly addNameRange     '1.3.12',
+164 silly addNameRange     '1.3.13',
+164 silly addNameRange     '1.4.0-beta.4',
+164 silly addNameRange     '1.3.14',
+164 silly addNameRange     '1.4.0-beta.5',
+164 silly addNameRange     '1.4.0-beta.6',
+164 silly addNameRange     '1.3.15',
+164 silly addNameRange     '1.4.0-rc.0',
+164 silly addNameRange     '1.4.0-rc.1',
+164 silly addNameRange     '1.4.0-rc.2',
+164 silly addNameRange     '1.4.0',
+164 silly addNameRange     '1.3.16',
+164 silly addNameRange     '1.4.1',
+164 silly addNameRange     '1.4.2',
+164 silly addNameRange     '1.3.17',
+164 silly addNameRange     '1.4.3',
+164 silly addNameRange     '1.4.4',
+164 silly addNameRange     '1.3.18',
+164 silly addNameRange     '1.4.5',
+164 silly addNameRange     '1.3.19',
+164 silly addNameRange     '1.4.6',
+164 silly addNameRange     '1.5.0-beta.0',
+164 silly addNameRange     '1.2.29',
+164 silly addNameRange     '1.3.20',
+164 silly addNameRange     '1.4.7',
+164 silly addNameRange     '1.5.0-beta.2',
+164 silly addNameRange     '1.4.8',
+164 silly addNameRange     '1.5.0-rc.0',
+164 silly addNameRange     '1.5.0-rc.1',
+164 silly addNameRange     '1.4.9',
+164 silly addNameRange     '1.5.0-rc.2',
+164 silly addNameRange     '1.5.0',
+164 silly addNameRange     '1.5.1',
+164 silly addNameRange     '1.4.10',
+164 silly addNameRange     '1.5.2',
+164 silly addNameRange     '1.5.3',
+164 silly addNameRange     '1.5.5',
+164 silly addNameRange     '1.4.11',
+164 silly addNameRange     '1.5.6',
+164 silly addNameRange     '1.4.12',
+164 silly addNameRange     '1.5.7',
+164 silly addNameRange     '1.2.30',
+164 silly addNameRange     '1.5.8',
+164 silly addNameRange     '1.4.13',
+164 silly addNameRange     '1.2.31',
+164 silly addNameRange     '1.2.32',
+164 silly addNameRange     '1.4.14',
+164 silly addNameRange     '1.6.0-rc.0',
+164 silly addNameRange     '1.6.0-rc.1',
+164 silly addNameRange     '1.5.9',
+164 silly addNameRange     '1.6.0-rc.2',
+164 silly addNameRange     '1.6.0',
+164 silly addNameRange     '1.5.10',
+164 silly addNameRange     '1.6.1',
+164 silly addNameRange     '1.5.11',
+164 silly addNameRange     '1.6.2',
+164 silly addNameRange     '1.6.3',
+164 silly addNameRange     '1.6.4',
+164 silly addNameRange     '1.6.5' ] ]
+165 silly addNamed angular-animate@1.5.11
+166 verbose addNamed "1.5.11" is a plain semver version for angular-animate
+167 info retry fetch attempt 1 at 12:29:23 PM
+168 info attempt registry request try #1 at 12:29:23 PM
+169 http fetch GET https://registry.npmjs.org/angular/-/angular-1.5.11.tgz
+170 silly mapToRegistry name angular-animate
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry data Result {
+173 silly mapToRegistry   raw: 'angular-animate',
+173 silly mapToRegistry   scope: null,
+173 silly mapToRegistry   escapedName: 'angular-animate',
+173 silly mapToRegistry   name: 'angular-animate',
+173 silly mapToRegistry   rawSpec: '',
+173 silly mapToRegistry   spec: 'latest',
+173 silly mapToRegistry   type: 'tag' }
+174 silly mapToRegistry uri https://registry.npmjs.org/angular-animate
+175 verbose addRemoteTarball https://registry.npmjs.org/angular-animate/-/angular-animate-1.5.11.tgz not in flight; adding
+176 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-animate/-/angular-animate-1.5.11.tgz',
+176 verbose addRemoteTarball   '1baa43c303d1b93c4e6aa89453b39114b7a1c669' ]
+177 silly resolveWithNewModule bootstrap@3.3.7 checking installable status
+178 silly cache add args [ 'bootstrap@~3.3.5', null ]
+179 verbose cache add spec bootstrap@~3.3.5
+180 silly cache add parsed spec Result {
+180 silly cache add   raw: 'bootstrap@~3.3.5',
+180 silly cache add   scope: null,
+180 silly cache add   escapedName: 'bootstrap',
+180 silly cache add   name: 'bootstrap',
+180 silly cache add   rawSpec: '~3.3.5',
+180 silly cache add   spec: '>=3.3.5 <3.4.0',
+180 silly cache add   type: 'range' }
+181 silly addNamed bootstrap@>=3.3.5 <3.4.0
+182 verbose addNamed ">=3.3.5 <3.4.0" is a valid semver range for bootstrap
+183 silly addNameRange { name: 'bootstrap', range: '>=3.3.5 <3.4.0', hasData: false }
+184 silly mapToRegistry name bootstrap
+185 silly mapToRegistry using default registry
+186 silly mapToRegistry registry https://registry.npmjs.org/
+187 silly mapToRegistry data Result {
+187 silly mapToRegistry   raw: 'bootstrap',
+187 silly mapToRegistry   scope: null,
+187 silly mapToRegistry   escapedName: 'bootstrap',
+187 silly mapToRegistry   name: 'bootstrap',
+187 silly mapToRegistry   rawSpec: '',
+187 silly mapToRegistry   spec: 'latest',
+187 silly mapToRegistry   type: 'tag' }
+188 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+189 verbose addNameRange registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+190 http fetch 200 https://registry.npmjs.org/font-awesome/-/font-awesome-4.4.0.tgz
+191 info retry fetch attempt 1 at 12:29:23 PM
+192 info attempt registry request try #1 at 12:29:23 PM
+193 http fetch GET https://registry.npmjs.org/angular-animate/-/angular-animate-1.5.11.tgz
+194 verbose get https://registry.npmjs.org/bootstrap not expired, no request
+195 silly addNameRange number 2 { name: 'bootstrap', range: '>=3.3.5 <3.4.0', hasData: true }
+196 silly addNameRange versions [ 'bootstrap',
+196 silly addNameRange   [ '0.0.1',
+196 silly addNameRange     '0.0.2',
+196 silly addNameRange     '3.1.1',
+196 silly addNameRange     '3.2.0',
+196 silly addNameRange     '3.3.0',
+196 silly addNameRange     '3.3.1',
+196 silly addNameRange     '3.3.2',
+196 silly addNameRange     '3.3.4',
+196 silly addNameRange     '3.3.5',
+196 silly addNameRange     '3.3.6',
+196 silly addNameRange     '4.0.0-alpha.2',
+196 silly addNameRange     '3.3.7',
+196 silly addNameRange     '4.0.0-alpha.3',
+196 silly addNameRange     '4.0.0-alpha.4',
+196 silly addNameRange     '4.0.0-alpha.5',
+196 silly addNameRange     '4.0.0-alpha.6' ] ]
+197 silly addNamed bootstrap@3.3.7
+198 verbose addNamed "3.3.7" is a plain semver version for bootstrap
+199 silly mapToRegistry name bootstrap
+200 silly mapToRegistry using default registry
+201 silly mapToRegistry registry https://registry.npmjs.org/
+202 silly mapToRegistry data Result {
+202 silly mapToRegistry   raw: 'bootstrap',
+202 silly mapToRegistry   scope: null,
+202 silly mapToRegistry   escapedName: 'bootstrap',
+202 silly mapToRegistry   name: 'bootstrap',
+202 silly mapToRegistry   rawSpec: '',
+202 silly mapToRegistry   spec: 'latest',
+202 silly mapToRegistry   type: 'tag' }
+203 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+204 verbose addRemoteTarball https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz not in flight; adding
+205 verbose addRemoteTarball [ 'https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz',
+205 verbose addRemoteTarball   '5a389394549f23330875a3b150656574f8a9eb71' ]
+206 info retry fetch attempt 1 at 12:29:23 PM
+207 info attempt registry request try #1 at 12:29:23 PM
+208 http fetch GET https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz
+209 http fetch 200 https://registry.npmjs.org/angular/-/angular-1.5.11.tgz
+210 http fetch 200 https://registry.npmjs.org/angular-animate/-/angular-animate-1.5.11.tgz
+211 http fetch 200 https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz
+212 silly fetchAndShaCheck shasum 1baa43c303d1b93c4e6aa89453b39114b7a1c669
+213 verbose addTmpTarball /var/folders/44/vd8pvsms5bz45n7np52g97b40000gn/T/npm-15780-0398fa68/registry.npmjs.org/angular-animate/-/angular-animate-1.5.11.tgz not in flight; adding
+214 verbose addTmpTarball already have metadata; skipping unpack for angular-animate@1.5.11
+215 verbose correctMkdir /Users/duaneleem/.npm correctMkdir not in flight; initializing
+216 silly cache afterAdd angular-animate@1.5.11
+217 verbose afterAdd /Users/duaneleem/.npm/angular-animate/1.5.11/package/package.json not in flight; writing
+218 verbose correctMkdir /Users/duaneleem/.npm correctMkdir not in flight; initializing
+219 verbose afterAdd /Users/duaneleem/.npm/angular-animate/1.5.11/package/package.json written
+220 silly fetchAndShaCheck shasum 9fe43f82cf72726badcbdb2704407aadaca17da9
+221 verbose addTmpTarball /var/folders/44/vd8pvsms5bz45n7np52g97b40000gn/T/npm-15780-0398fa68/registry.npmjs.org/font-awesome/-/font-awesome-4.4.0.tgz not in flight; adding
+222 verbose addTmpTarball already have metadata; skipping unpack for font-awesome@4.4.0
+223 verbose correctMkdir /Users/duaneleem/.npm correctMkdir not in flight; initializing
+224 silly cache afterAdd font-awesome@4.4.0
+225 verbose afterAdd /Users/duaneleem/.npm/font-awesome/4.4.0/package/package.json not in flight; writing
+226 verbose correctMkdir /Users/duaneleem/.npm correctMkdir not in flight; initializing
+227 verbose afterAdd /Users/duaneleem/.npm/font-awesome/4.4.0/package/package.json written
+228 silly fetchAndShaCheck shasum 8c5ba7386f15965c9acf3429f6881553aada30d6
+229 verbose addTmpTarball /var/folders/44/vd8pvsms5bz45n7np52g97b40000gn/T/npm-15780-0398fa68/registry.npmjs.org/angular/-/angular-1.5.11.tgz not in flight; adding
+230 verbose addTmpTarball already have metadata; skipping unpack for angular@1.5.11
+231 verbose correctMkdir /Users/duaneleem/.npm correctMkdir not in flight; initializing
+232 silly cache afterAdd angular@1.5.11
+233 verbose afterAdd /Users/duaneleem/.npm/angular/1.5.11/package/package.json not in flight; writing
+234 verbose correctMkdir /Users/duaneleem/.npm correctMkdir not in flight; initializing
+235 verbose afterAdd /Users/duaneleem/.npm/angular/1.5.11/package/package.json written
+236 silly fetchAndShaCheck shasum 5a389394549f23330875a3b150656574f8a9eb71
+237 verbose addTmpTarball /var/folders/44/vd8pvsms5bz45n7np52g97b40000gn/T/npm-15780-0398fa68/registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz not in flight; adding
+238 verbose addTmpTarball already have metadata; skipping unpack for bootstrap@3.3.7
+239 verbose correctMkdir /Users/duaneleem/.npm correctMkdir not in flight; initializing
+240 silly cache afterAdd bootstrap@3.3.7
+241 verbose afterAdd /Users/duaneleem/.npm/bootstrap/3.3.7/package/package.json not in flight; writing
+242 verbose correctMkdir /Users/duaneleem/.npm correctMkdir not in flight; initializing
+243 verbose afterAdd /Users/duaneleem/.npm/bootstrap/3.3.7/package/package.json written
+244 silly rollbackFailedOptional Starting
+245 silly rollbackFailedOptional Finishing
+246 silly runTopLevelLifecycles Finishing
+247 silly install printInstalled
+248 verbose stack Error: No compatible version found: jQuery@2.2.3
+248 verbose stack Valid install targets:
+248 verbose stack 1.7.4, 1.7.3, 1.7.2, 1.6.3, 1.6.2
+248 verbose stack
+248 verbose stack     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:178:16)
+248 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+248 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+248 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+248 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:241:18
+248 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+249 verbose cwd /Users/duaneleem/Documents/Code Projects/LeemTek.com/ChangesSalon.com | Legacy
+250 error Darwin 16.7.0
+251 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+252 error node v6.11.2
+253 error npm  v3.10.10
+254 error code ETARGET
+255 error notarget No compatible version found: jQuery@2.2.3
+255 error notarget Valid install targets:
+255 error notarget 1.7.4, 1.7.3, 1.7.2, 1.6.3, 1.6.2
+256 error notarget This is most likely not a problem with npm itself.
+256 error notarget In most cases you or one of your dependencies are requesting
+256 error notarget a package version that doesn't exist.
+256 error notarget
+256 error notarget It was specified as a dependency of 'changessalon'
+257 verbose exit [ 1, true ]

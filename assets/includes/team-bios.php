@@ -139,7 +139,7 @@
         ),
         array(
             "Yadira",
-            "Senior Stylist",
+            "Executive Stylist",
             "Stylists",
             "Albums/Stylists/thumbs/Yadira.jpg",
             "I have been a Hairstylist for over 9 years, completed extensive training at Sassoon Academy on cutting techniques, as
@@ -215,7 +215,7 @@
         ),
         array(
             "Lexie",
-            "Esthetician I<br />Educator/Department Trainer",
+            "Esthetician II<br />Educator/Department Trainer",
             "Estheticians",
             "Albums/Estheticians/thumbs/Lexie.jpg",
             "\"She believed she could, so she did\" - R.S Grey.<br /><br />This is my favorite quote and the words I live by. I love seeing the positive changes that happen when my guests are receiving the correct treatments and using the right skin care products. <br /><br />I have extensive training in waxing especially creating the perfect brow design. I specialize in lash extensions and make-up."
@@ -231,6 +231,27 @@
             truly loving the skin you're in!"
         ),
         array(
+            "Allison",
+            "Esthetician",
+            "Estheticians",
+            "Albums/logo-team-bio-nophoto.jpg",
+            "Allison is an esthetician and makeup artist, specializing in brow design, bridal and special event makeup, but demonstrates skill in all areas. She's passionate about the idea that education is the most important part of skin care, and her goal is to help you learn to look and feel your best self."
+        ),
+        array(
+            "Heather",
+            "Esthetician",
+            "Estheticians",
+            "Albums/logo-team-bio-nophoto.jpg",
+            null
+        ),
+        array(
+            "Charles",
+            "Esthetician",
+            "Estheticians",
+            "Albums/logo-team-bio-nophoto.jpg",
+            "Charles is an experienced Esthetician who is passionate about what he does. He specializes in brow waxing and skincare. He obtained his license in 2012 and has been working successfully in Walnut Creek since then. Charles enjoys making people feel beautiful and looks forward to a long career in this industry!"
+        ),
+        array(
             "Alexandra",
             "Massage Therapist",
             "Therapists",
@@ -243,13 +264,6 @@
             "Therapists",
             "Albums/Massage/thumbs/Anthony.jpg",
             "Anthony has been in the Massage Industry since 2008. He decided to be a part of the Spa Industry because he wanted to find a way to help people de-stress in this fast paced world and he always had an interest in anatomy. Anthony’s favorite service to perform on his clients is our Swedish massage with a Hot Stone add on because the Hot stones will further release any tension in the muscles and help his client into a more relaxed state. During Anthony’s spare time he loves to create digital art and animation!"
-        ),
-        array(
-            "Jordyn",
-            "Massage Therapist",
-            "Therapists",
-            "Albums/Massage/thumbs/Jordyn.jpg",
-            "Wanting to help others is a huge passion I've always had. I'm grateful I'm able to do that through massage. I love bringing positive energy to those clients in need. I'm trained in many modalities such as Prenatal, Deep Tissue, Aromatherapy and Stone Massage. I'm always learning new ways to customize the client's massage with each session."
         ),
         array(
             "Marissa",
@@ -329,7 +343,7 @@
             Chopra to teach Creating Health and the Seven Spiritual Laws of Yoga workshops."
         ),
         array(
-            "Clarissa",
+            "Cris",
             "Customer Service",
             "Support",
             "Albums/Support/thumbs/Clarissa.jpg",
@@ -361,13 +375,6 @@
             "Office Support",
             "Support",
             "Albums/Support/thumbs/Genesis.jpg",
-            null
-        ),
-        array(
-            "Marissa",
-            "Customer Service",
-            "Support",
-            "Albums/Support/thumbs/Marissa.jpg",
             null
         ),
         array(
@@ -403,13 +410,6 @@
             experience and healthy, beautiful nails."
         ),
         array(
-            "Jenny",
-            "Manicurist I",
-            "Manicurists",
-            "Albums/Manicurists/thumbs/Jenny.jpg",
-            null
-        ),
-        array(
             "Mary",
             "Manicurist",
             "Manicurists",
@@ -439,13 +439,18 @@
             become rejuvenated. She enjoys being able to help others with the gratifying gift of massage therapy."
         ),
         array(
-            "Tati",
-            "Customer Service",
-            "Support",
-            "Albums/Support/thumbs/Tati.jpg",
-            "As a part of Team Changes, I am committed to providing the best customer service possible for each and
-            every guest. I enjoying meeting the needs of clients and making sure they have received an amazing
-            experience before they step out the door."
+            "Ankita",
+            "Massage Therapist",
+            "Therapists",
+            "Albums/logo-team-bio-nophoto.jpg",
+            "I am a National Holistic Institute - NHI- trained massage therapist who has worked at Changes for nearly 12 years. I am passionate about using my skills and strength to bring relaxation and pain relief to my clients. I try to bring compassionate listening and a calm presence to offer my clients the best possible experience at the spa."
+        ),
+        array(
+            "Carmen",
+            "Massage Therapist",
+            "Therapists",
+            "Albums/logo-team-bio-nophoto.jpg",
+            'Growing up I had always wanted to be a massage therapist. When asked "what do you want to be when you grow up?"  I said "I want to massage people because it makes them feel good." There was a point in my life where everything aligned and I was able to enroll in the massage program at the Natural Holistic Institute. I am certified by the American Massage Therapists Association (AMTA). I look forward to working with you.'
         ),
         array(
             "Ariana",
@@ -453,14 +458,6 @@
             "Support",
             "Albums/logo-team-bio-nophoto.jpg",
             null
-        ),
-        array(
-            "Kara",
-            "Stylist",
-            "Stylists",
-            "Albums/Stylists/thumbs/Kara.jpg",
-            "I have been a hairstylist for 4 years, I have always had a passion for hair, I began my education at 16
-            years old and haven't looked back once, I enjoy creating a unique masterpiece on each client!"
         ),
         array(
             "Elizabeth",
